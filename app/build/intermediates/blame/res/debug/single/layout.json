@@ -64,10 +64,6 @@
         "source": "C:\\Users\\Jules\\.android\\build-cache\\b8e380666a3bd43298b82ffa24ece47fba17e1d1\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
-        "source": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\src\\main\\res\\layout\\content_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\Jules\\.android\\build-cache\\9f98900a746561cbd17db49e8d7d98821b180ed3\\output\\res\\layout\\design_navigation_item.xml"
     },
