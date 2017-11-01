@@ -361,7 +361,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">ProximityContent</string>
+    <string name="app_name">Shopping Kotkantie</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="error_no_bluetooth_enabled">To use this app you need to turn on Bluetooth</string>
@@ -378,7 +378,7 @@
     Detecting beacons requires Location permission. Please "Allow" so app can detect beacons.
   </string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_show_product">ShowProduct</string>
+    <string name="title_activity_show_product">Your product</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

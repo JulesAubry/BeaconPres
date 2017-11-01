@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">ProximityContent</string>
-    <string name="title_activity_show_product">ShowProduct</string>
+    <string name="app_name">Shopping Kotkantie</string>
+    <string name="title_activity_show_product">Your product</string>
 </resources>

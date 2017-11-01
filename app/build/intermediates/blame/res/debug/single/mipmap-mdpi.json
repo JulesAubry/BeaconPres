@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\shop.png",
+        "source": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\src\\main\\res\\mipmap-mdpi\\shop.png"
     }
 ]
