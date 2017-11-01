@@ -1,4 +1,4 @@
-#Wed Nov 01 10:41:59 EET 2017
+#Wed Nov 01 11:59:23 EET 2017
 file.9=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\kotlin-stdlib-1.1.2-3_d81bfd9a4f1690cd67ddcf84ae1806a32c9b3027\\classes.dex
 base.10=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_ec9e104a356b9c67a3355707bc4b24cc6d1ffad2
 file.8=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\kotlin-stdlib-jre7-1.1.2-3_b08667b257e8abbc7b46461af95aa292e33b59d2\\classes.dex

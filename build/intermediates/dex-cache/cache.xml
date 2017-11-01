@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="379d61ef5b0d2b7b1d67c7b8b7bb53cfd0b56291">
-        <dex dex="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bb63ebfb60cba63dd26e1a5fc7d19f20f2ed1d03\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7c7e494f5dec7b383be3df9cd041b9b7d6000766\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="077e3fc6e8daf661eaa3360b610abab2f89c9a09">
+        <dex dex="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bb63ebfb60cba63dd26e1a5fc7d19f20f2ed1d03\classes.dex" />
     </item>
 
 </items>
