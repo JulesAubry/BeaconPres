@@ -1,4 +1,4 @@
-#Tue Oct 31 12:46:41 EET 2017
+#Wed Nov 01 10:42:01 EET 2017
 base.0=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bb63ebfb60cba63dd26e1a5fc7d19f20f2ed1d03
 renamed.1=classes.dex
 renamed.0=classes2.dex

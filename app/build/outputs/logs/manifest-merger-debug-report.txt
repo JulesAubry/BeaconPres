@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\m
 	android:name
 		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:5:22-76
 application
-ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:7:5-22:19
+ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:7:5-25:19
 MERGED from [com.android.support:design:23.1.0] C:\Users\Jules\.android\build-cache\9f98900a746561cbd17db49e8d7d98821b180ed3\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\Jules\.android\build-cache\b8e380666a3bd43298b82ffa24ece47fba17e1d1\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.0] C:\Users\Jules\.android\build-cache\221e8eb6a4f67001ffdfd651054eba553ad27d9d\output\AndroidManifest.xml:22:5-20
@@ -28,6 +28,7 @@ MERGED from [com.estimote:management-sdk:0.1.0] C:\Users\Jules\.android\build-ca
 MERGED from [com.estimote:cloud-plugin:0.1.0] C:\Users\Jules\.android\build-cache\0eac24c15bd851e4a4099182f4cbd00877a96304\output\AndroidManifest.xml:11:5-12:19
 MERGED from [com.estimote:internal-plugins-api:0.1.0] C:\Users\Jules\.android\build-cache\dbbb75c95d173e6de8dc6f1954c1f35ea3c5741f\output\AndroidManifest.xml:11:5-12:19
 MERGED from [com.estimote:coresdk:1.2.0] C:\Users\Jules\.android\build-cache\0fd77776a5cb26bd4d74b8de98db2b7c2e7e30fd\output\AndroidManifest.xml:22:5-32:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Jules\.android\build-cache\0da394efacaf43970fb01cb22664bf4117fa36e0\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
@@ -41,19 +42,27 @@ MERGED from [com.estimote:coresdk:1.2.0] C:\Users\Jules\.android\build-cache\0fd
 	android:name
 		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:8:9-38
 activity#com.estimote.proximitycontent.MainActivity
-ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:15:9-20:20
+ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:14:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:16:13-19:29
+ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.estimote.proximitycontent.ShowProduct
+ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:21:9-24:68
+	android:label
+		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:23:13-64
+	android:theme
+		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml:22:13-40
 uses-sdk
 INJECTED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:23.1.0] C:\Users\Jules\.android\build-cache\9f98900a746561cbd17db49e8d7d98821b180ed3\output\AndroidManifest.xml:20:5-43
@@ -67,6 +76,7 @@ MERGED from [com.estimote:cloud-plugin:0.1.0] C:\Users\Jules\.android\build-cach
 MERGED from [com.estimote:internal-plugins-api:0.1.0] C:\Users\Jules\.android\build-cache\dbbb75c95d173e6de8dc6f1954c1f35ea3c5741f\output\AndroidManifest.xml:7:5-9:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Jules\.android\build-cache\b44c386325912623c88932e168095b470712d0ed\output\AndroidManifest.xml:19:5-43
 MERGED from [com.estimote:coresdk:1.2.0] C:\Users\Jules\.android\build-cache\0fd77776a5cb26bd4d74b8de98db2b7c2e7e30fd\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Jules\.android\build-cache\0da394efacaf43970fb01cb22664bf4117fa36e0\output\AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
 		INJECTED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\src\main\AndroidManifest.xml

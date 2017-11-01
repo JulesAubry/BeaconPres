@@ -1,19 +1,17 @@
 package com.estimote.proximitycontent;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.widget.TextView;
 
-import com.estimote.coresdk.cloud.model.Color;
 import com.estimote.coresdk.common.requirements.SystemRequirementsChecker;
 import com.estimote.proximitycontent.estimote.EstimoteCloudBeaconDetails;
 import com.estimote.proximitycontent.estimote.EstimoteCloudBeaconDetailsFactory;
 import com.estimote.proximitycontent.estimote.ProximityContentManager;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 //
 // Running into any issues? Drop us an email to: contact@estimote.com
@@ -21,24 +19,20 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = "MainActivity";
-
-    private static final Map<Color, Integer> BACKGROUND_COLORS = new HashMap<>();
-
-    static {
-        BACKGROUND_COLORS.put(Color.ICY_MARSHMALLOW, android.graphics.Color.rgb(109, 170, 199));
-        BACKGROUND_COLORS.put(Color.BLUEBERRY_PIE, android.graphics.Color.rgb(98, 84, 158));
-        BACKGROUND_COLORS.put(Color.MINT_COCKTAIL, android.graphics.Color.rgb(155, 186, 160));
-    }
-
-    private static final int BACKGROUND_COLOR_NEUTRAL = android.graphics.Color.rgb(160, 169, 172);
-
-    private ProximityContentManager proximityContentManager;
+   private static final String TAG = "MainActivity";
+   private ProximityContentManager proximityContentManager;
+   private Map<String, String> beaconsIDNames;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        beaconsIDNames = new HashMap<String, String>();
+        beaconsIDNames.put( "80d3fef04d1bc31366d9ae295de22730", "pink_15");
+        beaconsIDNames.put( "a2132dfaee5d947574ba39a2d6e4d107", "Lemonade");
+        beaconsIDNames.put( "f8893b99d382feb066100b40034e0d2e", "pink_3");
+
 
         proximityContentManager = new ProximityContentManager(this,
                 Arrays.asList(
@@ -49,21 +43,25 @@ public class MainActivity extends AppCompatActivity {
         proximityContentManager.setListener(new ProximityContentManager.Listener() {
             @Override
             public void onContentChanged(Object content) {
-                String text;
-                Integer backgroundColor;
                 if (content != null) {
                     EstimoteCloudBeaconDetails beaconDetails = (EstimoteCloudBeaconDetails) content;
-                    text = "You're in " + beaconDetails.getBeaconName() + "'s range!";
-                    backgroundColor = BACKGROUND_COLORS.get(beaconDetails.getBeaconColor());
+                    setActivity(beaconDetails);
                 } else {
-                    text = "No beacons in range.";
-                    backgroundColor = null;
+                    //TO DO
                 }
-                ((TextView) findViewById(R.id.textView)).setText(text);
-                findViewById(R.id.relativeLayout).setBackgroundColor(
-                        backgroundColor != null ? backgroundColor : BACKGROUND_COLOR_NEUTRAL);
             }
         });
+    }
+
+    public void setActivity(EstimoteCloudBeaconDetails beaconDetails) {
+        String idDevice = proximityContentManager.getNearestBeaconManager().getCurrentlyNearestDeviceID();
+        if(beaconDetails.getBeaconName().equals(beaconsIDNames.get(idDevice))) {
+            Intent intent = new Intent(this, ShowProduct.class);
+            Bundle b = new Bundle();
+            b.putString("key", idDevice);
+            intent.putExtras(b);
+            startActivity(intent);
+        }
     }
 
     @Override

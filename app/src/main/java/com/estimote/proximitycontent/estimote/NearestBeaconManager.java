@@ -109,4 +109,8 @@ public class NearestBeaconManager {
         Log.d(TAG, "Nearest beacon: " + nearestLocation + ", distance: " + nearestBeaconsDistance);
         return nearestLocation;
     }
+
+    public String getCurrentlyNearestDeviceID() {
+        return currentlyNearestDeviceID;
+    }
 }
