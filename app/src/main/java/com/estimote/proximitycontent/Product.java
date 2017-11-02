@@ -10,19 +10,28 @@ import java.util.*;
 
 public class Product {
 
+    protected int id;
     protected String name;
-    protected int numbers;
-    protected Map<String, Map<Double,Image>> products;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public Product() {
-        this.name = "Not Found";
-        this.numbers = 0;
-        this.products = new HashMap<String,Map<Double,Image>>();
+
     }
 
     public Product(String name) {
         this.name = name;
-        this.products =  new HashMap<String,Map<Double, Image>>();
+    }
+
+    public Product(int id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
     public String getName() {
@@ -33,29 +42,5 @@ public class Product {
         this.name = name;
     }
 
-    public int getNumbers() {
-        return numbers;
-    }
 
-    public void setNumbers(int numbers) {
-        this.numbers = numbers;
-    }
-
-    public Map<String, Map<Double, Image>> getProducts() {
-        return products;
-    }
-
-    public void addProduct(String n, Double p, Image i) {
-        this.numbers ++;
-        Map map = new HashMap<Double,Image>(1);
-        map.put(p,i);
-        this.products.put(n,map);
-    }
-
-    public void removeProduct(String n) {
-        if(this.products.containsKey(n)) {
-            this.products.remove(n);
-            this.numbers--;
-        }
-    }
 }

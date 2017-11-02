@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setUPDB();
+
         beaconsIDNames = new HashMap<String, String>();
         beaconsIDNames.put( "80d3fef04d1bc31366d9ae295de22730", "pink_15");
         beaconsIDNames.put( "a2132dfaee5d947574ba39a2d6e4d107", "Lemonade");
@@ -89,5 +91,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         proximityContentManager.destroy();
+    }
+
+    public void setUPDB() {
+        DatabaseHandler db = new DatabaseHandler(this);
+
+        Log.d("Adding: ", "Adding ...");
+        db.addProduct(new Product("Shoes"));
+        db.addProduct(new Product("Socks"));
+
+        // Reading all contacts
+        Log.d("Reading: ", "Reading all contacts..");
+        List<Product> products = db.getAllProducts();
+
+        for (Product cn : products) {
+            String log = "Id: " + cn.getId() + " ,Name: " + cn.getName();
+            // Writing Contacts to log
+            Log.d("Name: ", log);
+        }
     }
 }
