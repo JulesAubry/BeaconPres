@@ -1,25 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\samir\\AndroidStudioProjects\\BeaconPres\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\samir\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\12c14b59a97373420572bcf63ccd01b6\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Jules\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0d58393d75cf954f86fc9a8538a460aa\\res\\values-v22\\values-v22.xml",
                     "from": {
-                        "startLines": "4,5,6,9",
+                        "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "292,367,454,635",
-                        "endLines": "4,5,8,11",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "362,449,630,823"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,7",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,398",
-                        "endLines": "2,3,6,9",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,393,586"
+                        "endOffsets": "125,212,548,896"
                     }
                 }
             ]

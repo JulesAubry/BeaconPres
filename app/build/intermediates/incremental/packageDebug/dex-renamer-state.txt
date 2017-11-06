@@ -1,7 +1,0 @@
-#Thu Nov 02 14:39:44 EET 2017
-base.0=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bb63ebfb60cba63dd26e1a5fc7d19f20f2ed1d03
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7c7e494f5dec7b383be3df9cd041b9b7d6000766\\classes.dex
-base.1=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7c7e494f5dec7b383be3df9cd041b9b7d6000766
-file.0=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bb63ebfb60cba63dd26e1a5fc7d19f20f2ed1d03\\classes.dex

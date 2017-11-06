@@ -46,11 +46,11 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     // Creating Tables
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String CREATE_PRODUCT_TABLE = "CREATE TABLE " + TABLE_SHOE + "("
-                + PRODUCT_ID + " INTEGER PRIMARY KEY," + PRODUCT_NAME + " TEXT)";
+        String CREATE_PRODUCT_TABLE = "CREATE TABLE " + TABLE_PRODUCT + "("
+                + PRODUCT_ID + " INTEGER PRIMARY KEY," + PRODUCT_NAME + " TEXT UNIQUE)";
         db.execSQL(CREATE_PRODUCT_TABLE);
-        String CREATE_SHOE_TABLE = "CREATE TABLE " + TABLE_PRODUCT + "("
-                + SHOE_ID + " INTEGER PRIMARY KEY," + SHOE_NAME + " TEXT,"
+        String CREATE_SHOE_TABLE = "CREATE TABLE " + TABLE_SHOE + "("
+                + SHOE_ID + " INTEGER PRIMARY KEY," + SHOE_NAME + " TEXT UNIQUE,"
                 + SHOE_PRICE + " DOUBLE," +  SHOE_IMAGE + " BLOB," + SHOE_PRODUCT_ID + " TEXT,"
                 + " FOREIGN KEY ("+SHOE_PRODUCT_ID+") REFERENCES "+TABLE_PRODUCT+" ("+PRODUCT_ID+"))";
         db.execSQL(CREATE_SHOE_TABLE);
@@ -67,16 +67,17 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         // Create tables again
         onCreate(db);
     }
-/*
+
     // Adding new shoe
     void addShoe(Shoe shoe) {
         SQLiteDatabase db = this.getWritableDatabase();
 
+        Product pdr = getProduct("Shoes");
         ContentValues values = new ContentValues();
         values.put(SHOE_NAME, shoe.getNameS());
         values.put(SHOE_PRICE, shoe.getPrice());
         values.put(SHOE_IMAGE, shoe.getImage());
-        values.put(SHOE_PRODUCT_ID, shoe.getProductID());
+        values.put(SHOE_PRODUCT_ID, pdr.getId());
 
         // Inserting Row
         db.insert(TABLE_SHOE, null, values);
@@ -92,7 +93,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         if (cursor != null)
             cursor.moveToFirst();
 
-        Shoe shoe = new Shoe(Integer.parseInt(cursor.getString(0)),cursor.getString(1),cursor.getString(2),cursor.getDouble(3), cursor.getBlob(4),Integer.parseInt(cursor.getString(5)) );
+        Shoe shoe = new Shoe(Integer.parseInt(cursor.getString(0)),cursor.getString(1),cursor.getDouble(2), cursor.getBlob(3),Integer.parseInt(cursor.getString(4)) );
         return shoe;
     }
 
@@ -101,42 +102,51 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         // Select All Query
         String selectQuery = "SELECT  * FROM " + TABLE_SHOE;
 
+        Product pdr = getProduct("Shoes");
+
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
 
         if (cursor.moveToFirst()) {
             do {
                 Shoe shoe = new Shoe();
-                shoe.setId(Integer.parseInt(cursor.getString(0)));
-                shoe.setNameP(cursor.getString(1));
-                productList.add(contact);
+                shoe.setIdS( Integer.parseInt(cursor.getString(0)));
+                shoe.setNameS(cursor.getString(1));
+                shoe.setPrice(cursor.getDouble(2));
+                shoe.setImage(cursor.getBlob(3));
+                shoe.setProductID(Integer.parseInt(cursor.getString(4)));
+                shoeList.add(shoe);
             } while (cursor.moveToNext());
         }
 
-        return productList;
+        return shoeList;
     }
 
-    public int updateProduct(Product product) {
+    public int updateShoe(Shoe shoe) {
         SQLiteDatabase db = this.getWritableDatabase();
+        Product pdr = getProduct("Shoes");
 
         ContentValues values = new ContentValues();
-        values.put(PRODUCT_NAME, product.getName());
+        values.put(SHOE_NAME, shoe.getNameS());
+        values.put(SHOE_PRICE, shoe.getPrice());
+        values.put(SHOE_IMAGE, shoe.getImage());
+        values.put(SHOE_PRODUCT_ID, pdr.getId());
 
         // updating row
         return db.update(TABLE_PRODUCT, values, PRODUCT_ID + " = ?",
-                new String[] { String.valueOf(product.getId()) });
+                new String[] { String.valueOf(shoe.getIdS()) });
     }
 
-    public void deleteProduct(Product product) {
+    public void deleteShoe(Shoe shoe) {
         SQLiteDatabase db = this.getWritableDatabase();
-        db.delete(TABLE_PRODUCT, PRODUCT_ID + " = ?",
-                new String[] { String.valueOf(product.getId()) });
+        db.delete(TABLE_SHOE, SHOE_ID + " = ?",
+                new String[] { String.valueOf(shoe.getIdS()) });
         db.close();
     }
 
 
-    public int getProductsCount() {
-        String countQuery = "SELECT  * FROM " + TABLE_PRODUCT;
+    public int getShoesCount() {
+        String countQuery = "SELECT  * FROM " + TABLE_SHOE;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(countQuery, null);
         cursor.close();
@@ -144,7 +154,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         // return count
         return cursor.getCount();
     }
-*/
+
     // Adding new product
     void addProduct(Product product) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -163,6 +173,20 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         Cursor cursor = db.query(TABLE_PRODUCT, new String[] { PRODUCT_ID,
                         PRODUCT_NAME}, PRODUCT_ID + "=?",
                 new String[] { String.valueOf(id) }, null, null, null, null);
+        if (cursor != null)
+            cursor.moveToFirst();
+
+        Product product = new Product(Integer.parseInt(cursor.getString(0)),
+                cursor.getString(1));
+        return product;
+    }
+
+    Product getProduct(String str) {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursor = db.query(TABLE_PRODUCT, new String[] { PRODUCT_ID,
+                        PRODUCT_NAME}, PRODUCT_NAME + "=?",
+                new String[] { String.valueOf(str) }, null, null, null, null);
         if (cursor != null)
             cursor.moveToFirst();
 

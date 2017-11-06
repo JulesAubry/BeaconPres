@@ -4,19 +4,7 @@ package com.estimote.proximitycontent;
  * Created by Jules on 02/11/2017.
  */
 
-public class Shoe extends Product {
-
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
-
-
+public class Shoe {
 
     public String getNameS() {
         return nameS;
@@ -64,10 +52,14 @@ public class Shoe extends Product {
     private byte[] image;
     private int productID;
 
+    public Shoe(String nameS, double price, byte[] image) {
+        this.nameS = nameS;
+        this.price = price;
+        this.image = image;
+    }
 
-    public Shoe(int id, String name, int idS, String nameS, double price, byte[] image, int productID) {
-        super(id, name);
-        this.idS = id;
+    public Shoe(int idS, String nameS, double price, byte[] image, int productID) {
+        this.idS = idS;
         this.nameS = nameS;
         this.price = price;
         this.image = image;

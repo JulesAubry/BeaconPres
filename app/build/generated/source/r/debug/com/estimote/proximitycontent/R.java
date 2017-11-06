@@ -1848,58 +1848,72 @@ public final class R {
      */
     public static final int ratingBarStyle=0x7f0200e7;
     /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int ratingBarStyleIndicator=0x7f0200e8;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int ratingBarStyleSmall=0x7f0200e9;
+    /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f0200e8;
+    public static final int reverseLayout=0x7f0200ea;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int rippleColor=0x7f0200e9;
+    public static final int rippleColor=0x7f0200eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f0200ea;
+    public static final int searchHintIcon=0x7f0200ec;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f0200eb;
+    public static final int searchIcon=0x7f0200ed;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f0200ec;
+    public static final int searchViewStyle=0x7f0200ee;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f0200ed;
+    public static final int seekBarStyle=0x7f0200ef;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f0200ee;
+    public static final int selectableItemBackground=0x7f0200f0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f0200ef;
+    public static final int selectableItemBackgroundBorderless=0x7f0200f1;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1914,7 +1928,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f0200f0;
+    public static final int showAsAction=0x7f0200f2;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1928,109 +1942,116 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f0200f1;
+    public static final int showDividers=0x7f0200f3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f0200f2;
+    public static final int showText=0x7f0200f4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f0200f3;
+    public static final int singleChoiceItemLayout=0x7f0200f5;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f0200f4;
+    public static final int spanCount=0x7f0200f6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f0200f5;
+    public static final int spinBars=0x7f0200f7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f0200f6;
+    public static final int spinnerDropDownItemStyle=0x7f0200f8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f0200f7;
+    public static final int spinnerStyle=0x7f0200f9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0200f8;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int stackFromEnd=0x7f0200f9;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int state_above_anchor=0x7f0200fa;
+    public static final int splitTrack=0x7f0200fa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int statusBarBackground=0x7f0200fb;
+    public static final int srcCompat=0x7f0200fb;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int stackFromEnd=0x7f0200fc;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int state_above_anchor=0x7f0200fd;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int statusBarBackground=0x7f0200fe;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarScrim=0x7f0200fc;
+    public static final int statusBarScrim=0x7f0200ff;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0200fd;
+    public static final int submitBackground=0x7f020100;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0200fe;
+    public static final int subtitle=0x7f020101;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0200ff;
+    public static final int subtitleTextAppearance=0x7f020102;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f020100;
+    public static final int subtitleTextColor=0x7f020103;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f020101;
+    public static final int subtitleTextStyle=0x7f020104;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f020102;
+    public static final int suggestionRowLayout=0x7f020105;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2038,7 +2059,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f020103;
+    public static final int switchMinWidth=0x7f020106;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2046,28 +2067,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f020104;
+    public static final int switchPadding=0x7f020107;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f020105;
+    public static final int switchStyle=0x7f020108;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f020106;
+    public static final int switchTextAppearance=0x7f020109;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabBackground=0x7f020107;
+    public static final int tabBackground=0x7f02010a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2075,7 +2096,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabContentStart=0x7f020108;
+    public static final int tabContentStart=0x7f02010b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2087,13 +2108,13 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabGravity=0x7f020109;
+    public static final int tabGravity=0x7f02010c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIndicatorColor=0x7f02010a;
+    public static final int tabIndicatorColor=0x7f02010d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2101,7 +2122,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabIndicatorHeight=0x7f02010b;
+    public static final int tabIndicatorHeight=0x7f02010e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2109,7 +2130,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMaxWidth=0x7f02010c;
+    public static final int tabMaxWidth=0x7f02010f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2117,7 +2138,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMinWidth=0x7f02010d;
+    public static final int tabMinWidth=0x7f020110;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2129,7 +2150,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabMode=0x7f02010e;
+    public static final int tabMode=0x7f020111;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2137,7 +2158,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPadding=0x7f02010f;
+    public static final int tabPadding=0x7f020112;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2145,7 +2166,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingBottom=0x7f020110;
+    public static final int tabPaddingBottom=0x7f020113;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2153,7 +2174,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingEnd=0x7f020111;
+    public static final int tabPaddingEnd=0x7f020114;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2161,7 +2182,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingStart=0x7f020112;
+    public static final int tabPaddingStart=0x7f020115;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2169,26 +2190,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingTop=0x7f020113;
+    public static final int tabPaddingTop=0x7f020116;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabSelectedTextColor=0x7f020114;
+    public static final int tabSelectedTextColor=0x7f020117;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabTextAppearance=0x7f020115;
+    public static final int tabTextAppearance=0x7f020118;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabTextColor=0x7f020116;
+    public static final int tabTextColor=0x7f020119;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2197,59 +2218,49 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f020117;
+    public static final int textAllCaps=0x7f02011a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f020118;
+    public static final int textAppearanceLargePopupMenu=0x7f02011b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f020119;
+    public static final int textAppearanceListItem=0x7f02011c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f02011a;
+    public static final int textAppearanceListItemSmall=0x7f02011d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f02011b;
+    public static final int textAppearanceSearchResultSubtitle=0x7f02011e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f02011c;
+    public static final int textAppearanceSearchResultTitle=0x7f02011f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f02011d;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f02011e;
+    public static final int textAppearanceSmallPopupMenu=0x7f020120;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2259,14 +2270,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f02011f;
+    public static final int textColorAlertDialogListItem=0x7f020121;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f020122;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f020120;
+    public static final int theme=0x7f020123;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2274,7 +2295,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f020121;
+    public static final int thickness=0x7f020124;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2282,17 +2303,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f020122;
+    public static final int thumbTextPadding=0x7f020125;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f020123;
+    public static final int title=0x7f020126;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int titleEnabled=0x7f020124;
+    public static final int titleEnabled=0x7f020127;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2300,7 +2321,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f020125;
+    public static final int titleMarginBottom=0x7f020128;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2308,7 +2329,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f020126;
+    public static final int titleMarginEnd=0x7f020129;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2316,7 +2337,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f020127;
+    public static final int titleMarginStart=0x7f02012a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2324,7 +2345,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f020128;
+    public static final int titleMarginTop=0x7f02012b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2332,77 +2353,77 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f020129;
+    public static final int titleMargins=0x7f02012c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f02012a;
+    public static final int titleTextAppearance=0x7f02012d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f02012b;
+    public static final int titleTextColor=0x7f02012e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f02012c;
+    public static final int titleTextStyle=0x7f02012f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarId=0x7f02012d;
+    public static final int toolbarId=0x7f020130;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f02012e;
+    public static final int toolbarNavigationButtonStyle=0x7f020131;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f02012f;
+    public static final int toolbarStyle=0x7f020132;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f020130;
+    public static final int track=0x7f020133;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f020131;
+    public static final int voiceIcon=0x7f020134;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f020132;
+    public static final int windowActionBar=0x7f020135;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f020133;
+    public static final int windowActionBarOverlay=0x7f020136;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f020134;
+    public static final int windowActionModeOverlay=0x7f020137;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2414,7 +2435,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f020135;
+    public static final int windowFixedHeightMajor=0x7f020138;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2426,7 +2447,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f020136;
+    public static final int windowFixedHeightMinor=0x7f020139;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2438,7 +2459,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f020137;
+    public static final int windowFixedWidthMajor=0x7f02013a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2450,7 +2471,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f020138;
+    public static final int windowFixedWidthMinor=0x7f02013b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2462,7 +2483,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f020139;
+    public static final int windowMinWidthMajor=0x7f02013c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2474,12 +2495,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f02013a;
+    public static final int windowMinWidthMinor=0x7f02013d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f02013b;
+    public static final int windowNoTitle=0x7f02013e;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f030000;
@@ -2718,48 +2739,54 @@ public final class R {
     public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f06001e;
     public static final int abc_ic_menu_share_mtrl_alpha=0x7f06001f;
     public static final int abc_ic_search_api_mtrl_alpha=0x7f060020;
-    public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f060021;
-    public static final int abc_item_background_holo_dark=0x7f060022;
-    public static final int abc_item_background_holo_light=0x7f060023;
-    public static final int abc_list_divider_mtrl_alpha=0x7f060024;
-    public static final int abc_list_focused_holo=0x7f060025;
-    public static final int abc_list_longpressed_holo=0x7f060026;
-    public static final int abc_list_pressed_holo_dark=0x7f060027;
-    public static final int abc_list_pressed_holo_light=0x7f060028;
-    public static final int abc_list_selector_background_transition_holo_dark=0x7f060029;
-    public static final int abc_list_selector_background_transition_holo_light=0x7f06002a;
-    public static final int abc_list_selector_disabled_holo_dark=0x7f06002b;
-    public static final int abc_list_selector_disabled_holo_light=0x7f06002c;
-    public static final int abc_list_selector_holo_dark=0x7f06002d;
-    public static final int abc_list_selector_holo_light=0x7f06002e;
-    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f06002f;
-    public static final int abc_popup_background_mtrl_mult=0x7f060030;
-    public static final int abc_ratingbar_full_material=0x7f060031;
-    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f060032;
-    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f060033;
-    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f060034;
-    public static final int abc_scrubber_primary_mtrl_alpha=0x7f060035;
-    public static final int abc_scrubber_track_mtrl_alpha=0x7f060036;
-    public static final int abc_seekbar_thumb_material=0x7f060037;
-    public static final int abc_seekbar_track_material=0x7f060038;
-    public static final int abc_spinner_mtrl_am_alpha=0x7f060039;
-    public static final int abc_spinner_textfield_background_material=0x7f06003a;
-    public static final int abc_switch_thumb_material=0x7f06003b;
-    public static final int abc_switch_track_mtrl_alpha=0x7f06003c;
-    public static final int abc_tab_indicator_material=0x7f06003d;
-    public static final int abc_tab_indicator_mtrl_alpha=0x7f06003e;
-    public static final int abc_text_cursor_material=0x7f06003f;
-    public static final int abc_textfield_activated_mtrl_alpha=0x7f060040;
-    public static final int abc_textfield_default_mtrl_alpha=0x7f060041;
-    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f060042;
-    public static final int abc_textfield_search_default_mtrl_alpha=0x7f060043;
-    public static final int abc_textfield_search_material=0x7f060044;
-    public static final int beacon=0x7f060045;
-    public static final int design_fab_background=0x7f060046;
-    public static final int design_snackbar_background=0x7f060047;
-    public static final int logo=0x7f060048;
-    public static final int notification_template_icon_bg=0x7f060049;
-    public static final int shoe_1=0x7f06004a;
+    public static final int abc_ic_star_black_16dp=0x7f060021;
+    public static final int abc_ic_star_black_36dp=0x7f060022;
+    public static final int abc_ic_star_half_black_16dp=0x7f060023;
+    public static final int abc_ic_star_half_black_36dp=0x7f060024;
+    public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f060025;
+    public static final int abc_item_background_holo_dark=0x7f060026;
+    public static final int abc_item_background_holo_light=0x7f060027;
+    public static final int abc_list_divider_mtrl_alpha=0x7f060028;
+    public static final int abc_list_focused_holo=0x7f060029;
+    public static final int abc_list_longpressed_holo=0x7f06002a;
+    public static final int abc_list_pressed_holo_dark=0x7f06002b;
+    public static final int abc_list_pressed_holo_light=0x7f06002c;
+    public static final int abc_list_selector_background_transition_holo_dark=0x7f06002d;
+    public static final int abc_list_selector_background_transition_holo_light=0x7f06002e;
+    public static final int abc_list_selector_disabled_holo_dark=0x7f06002f;
+    public static final int abc_list_selector_disabled_holo_light=0x7f060030;
+    public static final int abc_list_selector_holo_dark=0x7f060031;
+    public static final int abc_list_selector_holo_light=0x7f060032;
+    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f060033;
+    public static final int abc_popup_background_mtrl_mult=0x7f060034;
+    public static final int abc_ratingbar_full_material=0x7f060035;
+    public static final int abc_ratingbar_indicator_material=0x7f060036;
+    public static final int abc_ratingbar_small_material=0x7f060037;
+    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f060038;
+    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f060039;
+    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f06003a;
+    public static final int abc_scrubber_primary_mtrl_alpha=0x7f06003b;
+    public static final int abc_scrubber_track_mtrl_alpha=0x7f06003c;
+    public static final int abc_seekbar_thumb_material=0x7f06003d;
+    public static final int abc_seekbar_track_material=0x7f06003e;
+    public static final int abc_spinner_mtrl_am_alpha=0x7f06003f;
+    public static final int abc_spinner_textfield_background_material=0x7f060040;
+    public static final int abc_switch_thumb_material=0x7f060041;
+    public static final int abc_switch_track_mtrl_alpha=0x7f060042;
+    public static final int abc_tab_indicator_material=0x7f060043;
+    public static final int abc_tab_indicator_mtrl_alpha=0x7f060044;
+    public static final int abc_text_cursor_material=0x7f060045;
+    public static final int abc_textfield_activated_mtrl_alpha=0x7f060046;
+    public static final int abc_textfield_default_mtrl_alpha=0x7f060047;
+    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f060048;
+    public static final int abc_textfield_search_default_mtrl_alpha=0x7f060049;
+    public static final int abc_textfield_search_material=0x7f06004a;
+    public static final int beacon=0x7f06004b;
+    public static final int design_fab_background=0x7f06004c;
+    public static final int design_snackbar_background=0x7f06004d;
+    public static final int logo=0x7f06004e;
+    public static final int notification_template_icon_bg=0x7f06004f;
+    public static final int shoe_1=0x7f060050;
   }
   public static final class id {
     public static final int action0=0x7f070000;
@@ -3142,195 +3169,206 @@ public final class R {
     public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c0089;
     public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c008a;
     public static final int Base_Widget_AppCompat_RatingBar=0x7f0c008b;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f0c008c;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c008d;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f0c008e;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f0c008f;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c0090;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c0091;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f0c0092;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0093;
-    public static final int Base_Widget_Design_TabLayout=0x7f0c0094;
-    public static final int Platform_AppCompat=0x7f0c0095;
-    public static final int Platform_AppCompat_Light=0x7f0c0096;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0c0097;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c0098;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c0099;
-    public static final int Platform_V11_AppCompat=0x7f0c009a;
-    public static final int Platform_V11_AppCompat_Light=0x7f0c009b;
-    public static final int Platform_V14_AppCompat=0x7f0c009c;
-    public static final int Platform_V14_AppCompat_Light=0x7f0c009d;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0c009e;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c009f;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c00a0;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c00a1;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c00a2;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c00a3;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c00a4;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c00aa;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c00a5;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c00a6;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c00a7;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c00a8;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c00a9;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c00ab;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c00ac;
-    public static final int TextAppearance_AppCompat=0x7f0c00ad;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0c00ae;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0c00af;
-    public static final int TextAppearance_AppCompat_Button=0x7f0c00b0;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0c00b1;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0c00b2;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0c00b3;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0c00b4;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0c00b5;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0c00b6;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0c00b7;
-    public static final int TextAppearance_AppCompat_Large=0x7f0c00b8;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c00b9;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c00ba;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c00bb;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00bc;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00bd;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0c00be;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c00bf;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0c00c0;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00c1;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c00c2;
-    public static final int TextAppearance_AppCompat_Small=0x7f0c00c3;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c00c4;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0c00c5;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00c6;
-    public static final int TextAppearance_AppCompat_Title=0x7f0c00c7;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c00c8;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00c9;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c00ca;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c00cb;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c00cc;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c00cd;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c00ce;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c00cf;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c00d0;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c00d1;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c00d2;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00d3;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c00d4;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00d5;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00d6;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c00d7;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00d8;
-    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0c00d9;
-    public static final int TextAppearance_Design_Counter=0x7f0c00da;
-    public static final int TextAppearance_Design_Counter_Overflow=0x7f0c00db;
-    public static final int TextAppearance_Design_Error=0x7f0c00dc;
-    public static final int TextAppearance_Design_Hint=0x7f0c00dd;
-    public static final int TextAppearance_Design_Snackbar_Message=0x7f0c00de;
-    public static final int TextAppearance_Design_Tab=0x7f0c00df;
-    public static final int TextAppearance_StatusBar_EventContent=0x7f0c00e0;
-    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0c00e1;
-    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0c00e2;
-    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0c00e3;
-    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0c00e4;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c00e5;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c00e6;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c00e7;
-    public static final int ThemeOverlay_AppCompat=0x7f0c00f7;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c00f8;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0c00f9;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c00fa;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0c00fb;
-    public static final int Theme_AppCompat=0x7f0c00e8;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0c00e9;
-    public static final int Theme_AppCompat_Dialog=0x7f0c00ea;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c00ed;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0c00eb;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c00ec;
-    public static final int Theme_AppCompat_Light=0x7f0c00ee;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c00ef;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0c00f0;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c00f3;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c00f1;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c00f2;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c00f4;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0c00f5;
-    public static final int Theme_Transparent=0x7f0c00f6;
-    public static final int Widget_AppCompat_ActionBar=0x7f0c00fc;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c00fd;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c00fe;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c00ff;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c0100;
-    public static final int Widget_AppCompat_ActionButton=0x7f0c0101;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c0102;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c0103;
-    public static final int Widget_AppCompat_ActionMode=0x7f0c0104;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0c0105;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c0106;
-    public static final int Widget_AppCompat_Button=0x7f0c0107;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0c010d;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c010e;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0c0108;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c0109;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c010a;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0c010b;
-    public static final int Widget_AppCompat_Button_Small=0x7f0c010c;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c010f;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0110;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c0111;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c0112;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c0113;
-    public static final int Widget_AppCompat_EditText=0x7f0c0114;
-    public static final int Widget_AppCompat_ImageButton=0x7f0c0115;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0c0116;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0117;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0118;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0119;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c011a;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c011b;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c011c;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c011d;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c011e;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0c011f;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c0120;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c0121;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c0122;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c0123;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c0124;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c0125;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c0126;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0127;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c0128;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0129;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0c012a;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c012b;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0c012c;
-    public static final int Widget_AppCompat_ListView=0x7f0c012d;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0c012e;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0c012f;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0c0130;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c0131;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0c0132;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0c0133;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0134;
-    public static final int Widget_AppCompat_RatingBar=0x7f0c0135;
-    public static final int Widget_AppCompat_SearchView=0x7f0c0136;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c0137;
-    public static final int Widget_AppCompat_SeekBar=0x7f0c0138;
-    public static final int Widget_AppCompat_Spinner=0x7f0c0139;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c013a;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c013b;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c013c;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c013d;
-    public static final int Widget_AppCompat_Toolbar=0x7f0c013e;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c013f;
-    public static final int Widget_Design_AppBarLayout=0x7f0c0140;
-    public static final int Widget_Design_CollapsingToolbar=0x7f0c0141;
-    public static final int Widget_Design_CoordinatorLayout=0x7f0c0142;
-    public static final int Widget_Design_FloatingActionButton=0x7f0c0143;
-    public static final int Widget_Design_NavigationView=0x7f0c0144;
-    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0c0145;
-    public static final int Widget_Design_Snackbar=0x7f0c0146;
-    public static final int Widget_Design_TabLayout=0x7f0c0147;
-    public static final int Widget_Design_TextInputLayout=0x7f0c0148;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0c008c;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0c008d;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f0c008e;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c008f;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f0c0090;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f0c0091;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c0092;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c0093;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f0c0094;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0095;
+    public static final int Base_Widget_Design_TabLayout=0x7f0c0096;
+    public static final int Platform_AppCompat=0x7f0c0097;
+    public static final int Platform_AppCompat_Light=0x7f0c0098;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0c0099;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c009a;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c009b;
+    public static final int Platform_V11_AppCompat=0x7f0c009c;
+    public static final int Platform_V11_AppCompat_Light=0x7f0c009d;
+    public static final int Platform_V14_AppCompat=0x7f0c009e;
+    public static final int Platform_V14_AppCompat_Light=0x7f0c009f;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0c00a0;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c00a1;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c00a2;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c00a3;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c00a4;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c00a5;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c00a6;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c00ac;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c00a7;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c00a8;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c00a9;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c00aa;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c00ab;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c00ad;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c00ae;
+    public static final int TextAppearance_AppCompat=0x7f0c00af;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0c00b0;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0c00b1;
+    public static final int TextAppearance_AppCompat_Button=0x7f0c00b2;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0c00b3;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0c00b4;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0c00b5;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0c00b6;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0c00b7;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0c00b8;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0c00b9;
+    public static final int TextAppearance_AppCompat_Large=0x7f0c00ba;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c00bb;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c00bc;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c00bd;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00be;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00bf;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0c00c0;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c00c1;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0c00c2;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00c3;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c00c4;
+    public static final int TextAppearance_AppCompat_Small=0x7f0c00c5;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c00c6;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0c00c7;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00c8;
+    public static final int TextAppearance_AppCompat_Title=0x7f0c00c9;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c00ca;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00cb;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c00cc;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c00cd;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c00ce;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c00cf;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c00d0;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c00d1;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c00d2;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c00d3;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c00d4;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00d5;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c00d6;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00d7;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00d8;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c00d9;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00da;
+    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0c00db;
+    public static final int TextAppearance_Design_Counter=0x7f0c00dc;
+    public static final int TextAppearance_Design_Counter_Overflow=0x7f0c00dd;
+    public static final int TextAppearance_Design_Error=0x7f0c00de;
+    public static final int TextAppearance_Design_Hint=0x7f0c00df;
+    public static final int TextAppearance_Design_Snackbar_Message=0x7f0c00e0;
+    public static final int TextAppearance_Design_Tab=0x7f0c00e1;
+    public static final int TextAppearance_StatusBar_EventContent=0x7f0c00e2;
+    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0c00e3;
+    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0c00e4;
+    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0c00e5;
+    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0c00e6;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c00e7;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c00e8;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c00e9;
+    public static final int ThemeOverlay_AppCompat=0x7f0c0100;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c0101;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0c0102;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0103;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0c0104;
+    public static final int Theme_AppCompat=0x7f0c00ea;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0c00eb;
+    public static final int Theme_AppCompat_DayNight=0x7f0c00ec;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0c00ed;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0c00ee;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0c00f1;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0c00ef;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0c00f0;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0c00f2;
+    public static final int Theme_AppCompat_Dialog=0x7f0c00f3;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c00f6;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0c00f4;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c00f5;
+    public static final int Theme_AppCompat_Light=0x7f0c00f7;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c00f8;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0c00f9;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c00fc;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c00fa;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c00fb;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c00fd;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0c00fe;
+    public static final int Theme_Transparent=0x7f0c00ff;
+    public static final int Widget_AppCompat_ActionBar=0x7f0c0105;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c0106;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c0107;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c0108;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c0109;
+    public static final int Widget_AppCompat_ActionButton=0x7f0c010a;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c010b;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c010c;
+    public static final int Widget_AppCompat_ActionMode=0x7f0c010d;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0c010e;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c010f;
+    public static final int Widget_AppCompat_Button=0x7f0c0110;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0c0116;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c0117;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0c0111;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c0112;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c0113;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0c0114;
+    public static final int Widget_AppCompat_Button_Small=0x7f0c0115;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0118;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0119;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c011a;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c011b;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c011c;
+    public static final int Widget_AppCompat_EditText=0x7f0c011d;
+    public static final int Widget_AppCompat_ImageButton=0x7f0c011e;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0c011f;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0120;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0121;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0122;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c0123;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0124;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0125;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0126;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c0127;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0c0128;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c0129;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c012a;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c012b;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c012c;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c012d;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c012e;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c012f;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0130;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c0131;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0132;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0c0133;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c0134;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0c0135;
+    public static final int Widget_AppCompat_ListView=0x7f0c0136;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0c0137;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0c0138;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0c0139;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c013a;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0c013b;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0c013c;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c013d;
+    public static final int Widget_AppCompat_RatingBar=0x7f0c013e;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0c013f;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0c0140;
+    public static final int Widget_AppCompat_SearchView=0x7f0c0141;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c0142;
+    public static final int Widget_AppCompat_SeekBar=0x7f0c0143;
+    public static final int Widget_AppCompat_Spinner=0x7f0c0144;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c0145;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c0146;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c0147;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c0148;
+    public static final int Widget_AppCompat_Toolbar=0x7f0c0149;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c014a;
+    public static final int Widget_Design_AppBarLayout=0x7f0c014b;
+    public static final int Widget_Design_CollapsingToolbar=0x7f0c014c;
+    public static final int Widget_Design_CoordinatorLayout=0x7f0c014d;
+    public static final int Widget_Design_FloatingActionButton=0x7f0c014e;
+    public static final int Widget_Design_NavigationView=0x7f0c014f;
+    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0c0150;
+    public static final int Widget_Design_Snackbar=0x7f0c0151;
+    public static final int Widget_Design_TabLayout=0x7f0c0152;
+    public static final int Widget_Design_TextInputLayout=0x7f0c0153;
   }
   public static final class styleable {
     /**
@@ -3402,8 +3440,8 @@ public final class R {
         0x7f02005e, 0x7f02005f, 0x7f02006a, 0x7f02007b, 
         0x7f02007c, 0x7f02007f, 0x7f020080, 0x7f020081, 
         0x7f020084, 0x7f02008a, 0x7f0200cd, 0x7f0200d6, 
-        0x7f0200de, 0x7f0200e2, 0x7f0200e3, 0x7f0200fe, 
-        0x7f020101, 0x7f020123, 0x7f02012c
+        0x7f0200de, 0x7f0200e2, 0x7f0200e3, 0x7f020101, 
+        0x7f020104, 0x7f020126, 0x7f02012f
       };
     /**
      * Attributes that can be used with a ActionBarLayout.
@@ -3848,7 +3886,7 @@ public final class R {
      */
     public static final int[] ActionMode={
         0x7f02002a, 0x7f02002b, 0x7f020040, 0x7f02007b, 
-        0x7f020101, 0x7f02012c
+        0x7f020104, 0x7f02012f
       };
     /**
      * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#background}
@@ -3987,7 +4025,7 @@ public final class R {
      */
     public static final int[] AlertDialog={
         0x010100f2, 0x7f020038, 0x7f0200c5, 0x7f0200c6, 
-        0x7f0200d3, 0x7f0200f3
+        0x7f0200d3, 0x7f0200f5
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -4166,6 +4204,49 @@ public final class R {
      */
     public static final int AppBarLayout_expanded=2;
     /**
+     * Attributes that can be used with a AppCompatImageView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.estimote.proximitycontent:srcCompat}</code></td><td></td></tr>
+     * </table>
+     * @see #AppCompatImageView_android_src
+     * @see #AppCompatImageView_srcCompat
+     */
+    public static final int[] AppCompatImageView={
+        0x01010119, 0x7f0200fb
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#src}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:src
+     */
+    public static final int AppCompatImageView_android_src=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#srcCompat}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:srcCompat
+     */
+    public static final int AppCompatImageView_srcCompat=1;
+    /**
      * Attributes that can be used with a AppCompatTextView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -4179,7 +4260,7 @@ public final class R {
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
-        0x01010034, 0x7f020117
+        0x01010034, 0x7f02011a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -4207,6 +4288,1652 @@ public final class R {
      * @attr name com.estimote.proximitycontent:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=1;
+    /**
+     * Attributes that can be used with a AppCompatTheme.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.estimote.proximitycontent:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.estimote.proximitycontent:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.estimote.proximitycontent:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.estimote.proximitycontent:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.estimote.proximitycontent:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.estimote.proximitycontent:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.estimote.proximitycontent:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.estimote.proximitycontent:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.estimote.proximitycontent:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.estimote.proximitycontent:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.estimote.proximitycontent:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.estimote.proximitycontent:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.estimote.proximitycontent:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.estimote.proximitycontent:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.estimote.proximitycontent:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.estimote.proximitycontent:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.estimote.proximitycontent:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.estimote.proximitycontent:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.estimote.proximitycontent:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.estimote.proximitycontent:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.estimote.proximitycontent:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.estimote.proximitycontent:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.estimote.proximitycontent:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.estimote.proximitycontent:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.estimote.proximitycontent:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.estimote.proximitycontent:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.estimote.proximitycontent:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.estimote.proximitycontent:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.estimote.proximitycontent:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.estimote.proximitycontent:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.estimote.proximitycontent:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.estimote.proximitycontent:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.estimote.proximitycontent:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.estimote.proximitycontent:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.estimote.proximitycontent:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.estimote.proximitycontent:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.estimote.proximitycontent:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.estimote.proximitycontent:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.estimote.proximitycontent:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.estimote.proximitycontent:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.estimote.proximitycontent:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.estimote.proximitycontent:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.estimote.proximitycontent:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.estimote.proximitycontent:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.estimote.proximitycontent:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.estimote.proximitycontent:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.estimote.proximitycontent:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.estimote.proximitycontent:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.estimote.proximitycontent:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.estimote.proximitycontent:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.estimote.proximitycontent:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.estimote.proximitycontent:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.estimote.proximitycontent:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.estimote.proximitycontent:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.estimote.proximitycontent:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.estimote.proximitycontent:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.estimote.proximitycontent:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.estimote.proximitycontent:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.estimote.proximitycontent:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.estimote.proximitycontent:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.estimote.proximitycontent:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.estimote.proximitycontent:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.estimote.proximitycontent:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.estimote.proximitycontent:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.estimote.proximitycontent:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.estimote.proximitycontent:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.estimote.proximitycontent:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.estimote.proximitycontent:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.estimote.proximitycontent:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.estimote.proximitycontent:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.estimote.proximitycontent:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.estimote.proximitycontent:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.estimote.proximitycontent:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.estimote.proximitycontent:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.estimote.proximitycontent:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.estimote.proximitycontent:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.estimote.proximitycontent:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.estimote.proximitycontent:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.estimote.proximitycontent:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.estimote.proximitycontent:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.estimote.proximitycontent:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.estimote.proximitycontent:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.estimote.proximitycontent:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.estimote.proximitycontent:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.estimote.proximitycontent:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.estimote.proximitycontent:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.estimote.proximitycontent:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.estimote.proximitycontent:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.estimote.proximitycontent:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.estimote.proximitycontent:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.estimote.proximitycontent:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.estimote.proximitycontent:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.estimote.proximitycontent:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.estimote.proximitycontent:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.estimote.proximitycontent:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.estimote.proximitycontent:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.estimote.proximitycontent:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.estimote.proximitycontent:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.estimote.proximitycontent:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.estimote.proximitycontent:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.estimote.proximitycontent:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.estimote.proximitycontent:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.estimote.proximitycontent:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.estimote.proximitycontent:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.estimote.proximitycontent:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.estimote.proximitycontent:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.estimote.proximitycontent:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.estimote.proximitycontent:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.estimote.proximitycontent:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.estimote.proximitycontent:windowNoTitle}</code></td><td></td></tr>
+     * </table>
+     * @see #AppCompatTheme_android_windowIsFloating
+     * @see #AppCompatTheme_android_windowAnimationStyle
+     * @see #AppCompatTheme_actionBarDivider
+     * @see #AppCompatTheme_actionBarItemBackground
+     * @see #AppCompatTheme_actionBarPopupTheme
+     * @see #AppCompatTheme_actionBarSize
+     * @see #AppCompatTheme_actionBarSplitStyle
+     * @see #AppCompatTheme_actionBarStyle
+     * @see #AppCompatTheme_actionBarTabBarStyle
+     * @see #AppCompatTheme_actionBarTabStyle
+     * @see #AppCompatTheme_actionBarTabTextStyle
+     * @see #AppCompatTheme_actionBarTheme
+     * @see #AppCompatTheme_actionBarWidgetTheme
+     * @see #AppCompatTheme_actionButtonStyle
+     * @see #AppCompatTheme_actionDropDownStyle
+     * @see #AppCompatTheme_actionMenuTextAppearance
+     * @see #AppCompatTheme_actionMenuTextColor
+     * @see #AppCompatTheme_actionModeBackground
+     * @see #AppCompatTheme_actionModeCloseButtonStyle
+     * @see #AppCompatTheme_actionModeCloseDrawable
+     * @see #AppCompatTheme_actionModeCopyDrawable
+     * @see #AppCompatTheme_actionModeCutDrawable
+     * @see #AppCompatTheme_actionModeFindDrawable
+     * @see #AppCompatTheme_actionModePasteDrawable
+     * @see #AppCompatTheme_actionModePopupWindowStyle
+     * @see #AppCompatTheme_actionModeSelectAllDrawable
+     * @see #AppCompatTheme_actionModeShareDrawable
+     * @see #AppCompatTheme_actionModeSplitBackground
+     * @see #AppCompatTheme_actionModeStyle
+     * @see #AppCompatTheme_actionModeWebSearchDrawable
+     * @see #AppCompatTheme_actionOverflowButtonStyle
+     * @see #AppCompatTheme_actionOverflowMenuStyle
+     * @see #AppCompatTheme_activityChooserViewStyle
+     * @see #AppCompatTheme_alertDialogButtonGroupStyle
+     * @see #AppCompatTheme_alertDialogCenterButtons
+     * @see #AppCompatTheme_alertDialogStyle
+     * @see #AppCompatTheme_alertDialogTheme
+     * @see #AppCompatTheme_autoCompleteTextViewStyle
+     * @see #AppCompatTheme_borderlessButtonStyle
+     * @see #AppCompatTheme_buttonBarButtonStyle
+     * @see #AppCompatTheme_buttonBarNegativeButtonStyle
+     * @see #AppCompatTheme_buttonBarNeutralButtonStyle
+     * @see #AppCompatTheme_buttonBarPositiveButtonStyle
+     * @see #AppCompatTheme_buttonBarStyle
+     * @see #AppCompatTheme_buttonStyle
+     * @see #AppCompatTheme_buttonStyleSmall
+     * @see #AppCompatTheme_checkboxStyle
+     * @see #AppCompatTheme_checkedTextViewStyle
+     * @see #AppCompatTheme_colorAccent
+     * @see #AppCompatTheme_colorButtonNormal
+     * @see #AppCompatTheme_colorControlActivated
+     * @see #AppCompatTheme_colorControlHighlight
+     * @see #AppCompatTheme_colorControlNormal
+     * @see #AppCompatTheme_colorPrimary
+     * @see #AppCompatTheme_colorPrimaryDark
+     * @see #AppCompatTheme_colorSwitchThumbNormal
+     * @see #AppCompatTheme_controlBackground
+     * @see #AppCompatTheme_dialogPreferredPadding
+     * @see #AppCompatTheme_dialogTheme
+     * @see #AppCompatTheme_dividerHorizontal
+     * @see #AppCompatTheme_dividerVertical
+     * @see #AppCompatTheme_dropDownListViewStyle
+     * @see #AppCompatTheme_dropdownListPreferredItemHeight
+     * @see #AppCompatTheme_editTextBackground
+     * @see #AppCompatTheme_editTextColor
+     * @see #AppCompatTheme_editTextStyle
+     * @see #AppCompatTheme_homeAsUpIndicator
+     * @see #AppCompatTheme_imageButtonStyle
+     * @see #AppCompatTheme_listChoiceBackgroundIndicator
+     * @see #AppCompatTheme_listDividerAlertDialog
+     * @see #AppCompatTheme_listPopupWindowStyle
+     * @see #AppCompatTheme_listPreferredItemHeight
+     * @see #AppCompatTheme_listPreferredItemHeightLarge
+     * @see #AppCompatTheme_listPreferredItemHeightSmall
+     * @see #AppCompatTheme_listPreferredItemPaddingLeft
+     * @see #AppCompatTheme_listPreferredItemPaddingRight
+     * @see #AppCompatTheme_panelBackground
+     * @see #AppCompatTheme_panelMenuListTheme
+     * @see #AppCompatTheme_panelMenuListWidth
+     * @see #AppCompatTheme_popupMenuStyle
+     * @see #AppCompatTheme_popupWindowStyle
+     * @see #AppCompatTheme_radioButtonStyle
+     * @see #AppCompatTheme_ratingBarStyle
+     * @see #AppCompatTheme_ratingBarStyleIndicator
+     * @see #AppCompatTheme_ratingBarStyleSmall
+     * @see #AppCompatTheme_searchViewStyle
+     * @see #AppCompatTheme_seekBarStyle
+     * @see #AppCompatTheme_selectableItemBackground
+     * @see #AppCompatTheme_selectableItemBackgroundBorderless
+     * @see #AppCompatTheme_spinnerDropDownItemStyle
+     * @see #AppCompatTheme_spinnerStyle
+     * @see #AppCompatTheme_switchStyle
+     * @see #AppCompatTheme_textAppearanceLargePopupMenu
+     * @see #AppCompatTheme_textAppearanceListItem
+     * @see #AppCompatTheme_textAppearanceListItemSmall
+     * @see #AppCompatTheme_textAppearanceSearchResultSubtitle
+     * @see #AppCompatTheme_textAppearanceSearchResultTitle
+     * @see #AppCompatTheme_textAppearanceSmallPopupMenu
+     * @see #AppCompatTheme_textColorAlertDialogListItem
+     * @see #AppCompatTheme_textColorSearchUrl
+     * @see #AppCompatTheme_toolbarNavigationButtonStyle
+     * @see #AppCompatTheme_toolbarStyle
+     * @see #AppCompatTheme_windowActionBar
+     * @see #AppCompatTheme_windowActionBarOverlay
+     * @see #AppCompatTheme_windowActionModeOverlay
+     * @see #AppCompatTheme_windowFixedHeightMajor
+     * @see #AppCompatTheme_windowFixedHeightMinor
+     * @see #AppCompatTheme_windowFixedWidthMajor
+     * @see #AppCompatTheme_windowFixedWidthMinor
+     * @see #AppCompatTheme_windowMinWidthMajor
+     * @see #AppCompatTheme_windowMinWidthMinor
+     * @see #AppCompatTheme_windowNoTitle
+     */
+    public static final int[] AppCompatTheme={
+        0x01010057, 0x010100ae, 0x7f020000, 0x7f020001, 
+        0x7f020002, 0x7f020003, 0x7f020004, 0x7f020005, 
+        0x7f020006, 0x7f020007, 0x7f020008, 0x7f020009, 
+        0x7f02000a, 0x7f02000b, 0x7f02000c, 0x7f02000e, 
+        0x7f02000f, 0x7f020010, 0x7f020011, 0x7f020012, 
+        0x7f020013, 0x7f020014, 0x7f020015, 0x7f020016, 
+        0x7f020017, 0x7f020018, 0x7f020019, 0x7f02001a, 
+        0x7f02001b, 0x7f02001c, 0x7f02001d, 0x7f02001e, 
+        0x7f020021, 0x7f020022, 0x7f020023, 0x7f020024, 
+        0x7f020025, 0x7f020029, 0x7f020032, 0x7f020033, 
+        0x7f020034, 0x7f020035, 0x7f020036, 0x7f020037, 
+        0x7f020039, 0x7f02003a, 0x7f02003d, 0x7f02003e, 
+        0x7f020046, 0x7f020047, 0x7f020048, 0x7f020049, 
+        0x7f02004a, 0x7f02004b, 0x7f02004c, 0x7f02004d, 
+        0x7f020055, 0x7f02005c, 0x7f02005d, 0x7f020060, 
+        0x7f020062, 0x7f020065, 0x7f020066, 0x7f020067, 
+        0x7f020068, 0x7f020069, 0x7f02007f, 0x7f020083, 
+        0x7f0200c3, 0x7f0200c4, 0x7f0200c7, 0x7f0200c8, 
+        0x7f0200c9, 0x7f0200ca, 0x7f0200cb, 0x7f0200cc, 
+        0x7f0200da, 0x7f0200db, 0x7f0200dc, 0x7f0200dd, 
+        0x7f0200df, 0x7f0200e6, 0x7f0200e7, 0x7f0200e8, 
+        0x7f0200e9, 0x7f0200ee, 0x7f0200ef, 0x7f0200f0, 
+        0x7f0200f1, 0x7f0200f8, 0x7f0200f9, 0x7f020108, 
+        0x7f02011b, 0x7f02011c, 0x7f02011d, 0x7f02011e, 
+        0x7f02011f, 0x7f020120, 0x7f020121, 0x7f020122, 
+        0x7f020131, 0x7f020132, 0x7f020135, 0x7f020136, 
+        0x7f020137, 0x7f020138, 0x7f020139, 0x7f02013a, 
+        0x7f02013b, 0x7f02013c, 0x7f02013d, 0x7f02013e
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarDivider}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarDivider
+     */
+    public static final int AppCompatTheme_actionBarDivider=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarItemBackground
+     */
+    public static final int AppCompatTheme_actionBarItemBackground=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarPopupTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarPopupTheme
+     */
+    public static final int AppCompatTheme_actionBarPopupTheme=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarSize}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.estimote.proximitycontent:actionBarSize
+     */
+    public static final int AppCompatTheme_actionBarSize=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarSplitStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarSplitStyle
+     */
+    public static final int AppCompatTheme_actionBarSplitStyle=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarStyle
+     */
+    public static final int AppCompatTheme_actionBarStyle=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarTabBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarTabBarStyle
+     */
+    public static final int AppCompatTheme_actionBarTabBarStyle=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarTabStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarTabStyle
+     */
+    public static final int AppCompatTheme_actionBarTabStyle=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarTabTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarTabTextStyle
+     */
+    public static final int AppCompatTheme_actionBarTabTextStyle=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarTheme
+     */
+    public static final int AppCompatTheme_actionBarTheme=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarWidgetTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionBarWidgetTheme
+     */
+    public static final int AppCompatTheme_actionBarWidgetTheme=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionButtonStyle
+     */
+    public static final int AppCompatTheme_actionButtonStyle=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionDropDownStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionDropDownStyle
+     */
+    public static final int AppCompatTheme_actionDropDownStyle=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionMenuTextAppearance}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionMenuTextAppearance
+     */
+    public static final int AppCompatTheme_actionMenuTextAppearance=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionMenuTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionMenuTextColor
+     */
+    public static final int AppCompatTheme_actionMenuTextColor=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeBackground
+     */
+    public static final int AppCompatTheme_actionModeBackground=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeCloseButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeCloseButtonStyle
+     */
+    public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeCloseDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeCloseDrawable
+     */
+    public static final int AppCompatTheme_actionModeCloseDrawable=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeCopyDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeCopyDrawable
+     */
+    public static final int AppCompatTheme_actionModeCopyDrawable=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeCutDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeCutDrawable
+     */
+    public static final int AppCompatTheme_actionModeCutDrawable=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeFindDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeFindDrawable
+     */
+    public static final int AppCompatTheme_actionModeFindDrawable=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModePasteDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModePasteDrawable
+     */
+    public static final int AppCompatTheme_actionModePasteDrawable=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModePopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModePopupWindowStyle
+     */
+    public static final int AppCompatTheme_actionModePopupWindowStyle=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeSelectAllDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeSelectAllDrawable
+     */
+    public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeShareDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeShareDrawable
+     */
+    public static final int AppCompatTheme_actionModeShareDrawable=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeSplitBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeSplitBackground
+     */
+    public static final int AppCompatTheme_actionModeSplitBackground=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeStyle
+     */
+    public static final int AppCompatTheme_actionModeStyle=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeWebSearchDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionModeWebSearchDrawable
+     */
+    public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionOverflowButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionOverflowButtonStyle
+     */
+    public static final int AppCompatTheme_actionOverflowButtonStyle=30;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionOverflowMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:actionOverflowMenuStyle
+     */
+    public static final int AppCompatTheme_actionOverflowMenuStyle=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#activityChooserViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:activityChooserViewStyle
+     */
+    public static final int AppCompatTheme_activityChooserViewStyle=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#alertDialogButtonGroupStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:alertDialogButtonGroupStyle
+     */
+    public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#alertDialogCenterButtons}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.estimote.proximitycontent:alertDialogCenterButtons
+     */
+    public static final int AppCompatTheme_alertDialogCenterButtons=34;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#alertDialogStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:alertDialogStyle
+     */
+    public static final int AppCompatTheme_alertDialogStyle=35;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#alertDialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:alertDialogTheme
+     */
+    public static final int AppCompatTheme_alertDialogTheme=36;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:windowAnimationStyle
+     */
+    public static final int AppCompatTheme_android_windowAnimationStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:windowIsFloating
+     */
+    public static final int AppCompatTheme_android_windowIsFloating=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#autoCompleteTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:autoCompleteTextViewStyle
+     */
+    public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#borderlessButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:borderlessButtonStyle
+     */
+    public static final int AppCompatTheme_borderlessButtonStyle=38;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:buttonBarButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarButtonStyle=39;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarNegativeButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:buttonBarNegativeButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarNeutralButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:buttonBarNeutralButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarPositiveButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:buttonBarPositiveButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:buttonBarStyle
+     */
+    public static final int AppCompatTheme_buttonBarStyle=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:buttonStyle
+     */
+    public static final int AppCompatTheme_buttonStyle=44;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:buttonStyleSmall
+     */
+    public static final int AppCompatTheme_buttonStyleSmall=45;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#checkboxStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:checkboxStyle
+     */
+    public static final int AppCompatTheme_checkboxStyle=46;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#checkedTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:checkedTextViewStyle
+     */
+    public static final int AppCompatTheme_checkedTextViewStyle=47;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorAccent}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:colorAccent
+     */
+    public static final int AppCompatTheme_colorAccent=48;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorButtonNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:colorButtonNormal
+     */
+    public static final int AppCompatTheme_colorButtonNormal=49;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorControlActivated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:colorControlActivated
+     */
+    public static final int AppCompatTheme_colorControlActivated=50;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorControlHighlight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:colorControlHighlight
+     */
+    public static final int AppCompatTheme_colorControlHighlight=51;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorControlNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:colorControlNormal
+     */
+    public static final int AppCompatTheme_colorControlNormal=52;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:colorPrimary
+     */
+    public static final int AppCompatTheme_colorPrimary=53;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:colorPrimaryDark
+     */
+    public static final int AppCompatTheme_colorPrimaryDark=54;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorSwitchThumbNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:colorSwitchThumbNormal
+     */
+    public static final int AppCompatTheme_colorSwitchThumbNormal=55;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#controlBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:controlBackground
+     */
+    public static final int AppCompatTheme_controlBackground=56;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dialogPreferredPadding}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.estimote.proximitycontent:dialogPreferredPadding
+     */
+    public static final int AppCompatTheme_dialogPreferredPadding=57;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:dialogTheme
+     */
+    public static final int AppCompatTheme_dialogTheme=58;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dividerHorizontal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:dividerHorizontal
+     */
+    public static final int AppCompatTheme_dividerHorizontal=59;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dividerVertical}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:dividerVertical
+     */
+    public static final int AppCompatTheme_dividerVertical=60;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dropDownListViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:dropDownListViewStyle
+     */
+    public static final int AppCompatTheme_dropDownListViewStyle=61;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dropdownListPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.estimote.proximitycontent:dropdownListPreferredItemHeight
+     */
+    public static final int AppCompatTheme_dropdownListPreferredItemHeight=62;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#editTextBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:editTextBackground
+     */
+    public static final int AppCompatTheme_editTextBackground=63;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#editTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:editTextColor
+     */
+    public static final int AppCompatTheme_editTextColor=64;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#editTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:editTextStyle
+     */
+    public static final int AppCompatTheme_editTextStyle=65;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:homeAsUpIndicator
+     */
+    public static final int AppCompatTheme_homeAsUpIndicator=66;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#imageButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:imageButtonStyle
+     */
+    public static final int AppCompatTheme_imageButtonStyle=67;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listChoiceBackgroundIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:listChoiceBackgroundIndicator
+     */
+    public static final int AppCompatTheme_listChoiceBackgroundIndicator=68;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listDividerAlertDialog}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:listDividerAlertDialog
+     */
+    public static final int AppCompatTheme_listDividerAlertDialog=69;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:listPopupWindowStyle
+     */
+    public static final int AppCompatTheme_listPopupWindowStyle=70;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.estimote.proximitycontent:listPreferredItemHeight
+     */
+    public static final int AppCompatTheme_listPreferredItemHeight=71;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemHeightLarge}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.estimote.proximitycontent:listPreferredItemHeightLarge
+     */
+    public static final int AppCompatTheme_listPreferredItemHeightLarge=72;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemHeightSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.estimote.proximitycontent:listPreferredItemHeightSmall
+     */
+    public static final int AppCompatTheme_listPreferredItemHeightSmall=73;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemPaddingLeft}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.estimote.proximitycontent:listPreferredItemPaddingLeft
+     */
+    public static final int AppCompatTheme_listPreferredItemPaddingLeft=74;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemPaddingRight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.estimote.proximitycontent:listPreferredItemPaddingRight
+     */
+    public static final int AppCompatTheme_listPreferredItemPaddingRight=75;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#panelBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:panelBackground
+     */
+    public static final int AppCompatTheme_panelBackground=76;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#panelMenuListTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:panelMenuListTheme
+     */
+    public static final int AppCompatTheme_panelMenuListTheme=77;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#panelMenuListWidth}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.estimote.proximitycontent:panelMenuListWidth
+     */
+    public static final int AppCompatTheme_panelMenuListWidth=78;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#popupMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:popupMenuStyle
+     */
+    public static final int AppCompatTheme_popupMenuStyle=79;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#popupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:popupWindowStyle
+     */
+    public static final int AppCompatTheme_popupWindowStyle=80;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#radioButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:radioButtonStyle
+     */
+    public static final int AppCompatTheme_radioButtonStyle=81;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#ratingBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:ratingBarStyle
+     */
+    public static final int AppCompatTheme_ratingBarStyle=82;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#ratingBarStyleIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:ratingBarStyleIndicator
+     */
+    public static final int AppCompatTheme_ratingBarStyleIndicator=83;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#ratingBarStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:ratingBarStyleSmall
+     */
+    public static final int AppCompatTheme_ratingBarStyleSmall=84;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#searchViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:searchViewStyle
+     */
+    public static final int AppCompatTheme_searchViewStyle=85;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#seekBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:seekBarStyle
+     */
+    public static final int AppCompatTheme_seekBarStyle=86;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#selectableItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:selectableItemBackground
+     */
+    public static final int AppCompatTheme_selectableItemBackground=87;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#selectableItemBackgroundBorderless}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:selectableItemBackgroundBorderless
+     */
+    public static final int AppCompatTheme_selectableItemBackgroundBorderless=88;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#spinnerDropDownItemStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:spinnerDropDownItemStyle
+     */
+    public static final int AppCompatTheme_spinnerDropDownItemStyle=89;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#spinnerStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:spinnerStyle
+     */
+    public static final int AppCompatTheme_spinnerStyle=90;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#switchStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:switchStyle
+     */
+    public static final int AppCompatTheme_switchStyle=91;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceLargePopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:textAppearanceLargePopupMenu
+     */
+    public static final int AppCompatTheme_textAppearanceLargePopupMenu=92;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:textAppearanceListItem
+     */
+    public static final int AppCompatTheme_textAppearanceListItem=93;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceListItemSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:textAppearanceListItemSmall
+     */
+    public static final int AppCompatTheme_textAppearanceListItemSmall=94;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceSearchResultSubtitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:textAppearanceSearchResultSubtitle
+     */
+    public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=95;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceSearchResultTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:textAppearanceSearchResultTitle
+     */
+    public static final int AppCompatTheme_textAppearanceSearchResultTitle=96;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceSmallPopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:textAppearanceSmallPopupMenu
+     */
+    public static final int AppCompatTheme_textAppearanceSmallPopupMenu=97;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textColorAlertDialogListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:textColorAlertDialogListItem
+     */
+    public static final int AppCompatTheme_textColorAlertDialogListItem=98;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textColorSearchUrl}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:textColorSearchUrl
+     */
+    public static final int AppCompatTheme_textColorSearchUrl=99;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#toolbarNavigationButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:toolbarNavigationButtonStyle
+     */
+    public static final int AppCompatTheme_toolbarNavigationButtonStyle=100;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#toolbarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.estimote.proximitycontent:toolbarStyle
+     */
+    public static final int AppCompatTheme_toolbarStyle=101;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowActionBar}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.estimote.proximitycontent:windowActionBar
+     */
+    public static final int AppCompatTheme_windowActionBar=102;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowActionBarOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.estimote.proximitycontent:windowActionBarOverlay
+     */
+    public static final int AppCompatTheme_windowActionBarOverlay=103;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowActionModeOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.estimote.proximitycontent:windowActionModeOverlay
+     */
+    public static final int AppCompatTheme_windowActionModeOverlay=104;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowFixedHeightMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.estimote.proximitycontent:windowFixedHeightMajor
+     */
+    public static final int AppCompatTheme_windowFixedHeightMajor=105;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowFixedHeightMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.estimote.proximitycontent:windowFixedHeightMinor
+     */
+    public static final int AppCompatTheme_windowFixedHeightMinor=106;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowFixedWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.estimote.proximitycontent:windowFixedWidthMajor
+     */
+    public static final int AppCompatTheme_windowFixedWidthMajor=107;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowFixedWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.estimote.proximitycontent:windowFixedWidthMinor
+     */
+    public static final int AppCompatTheme_windowFixedWidthMinor=108;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowMinWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.estimote.proximitycontent:windowMinWidthMajor
+     */
+    public static final int AppCompatTheme_windowMinWidthMajor=109;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowMinWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.estimote.proximitycontent:windowMinWidthMinor
+     */
+    public static final int AppCompatTheme_windowMinWidthMinor=110;
+    /**
+     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowNoTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.estimote.proximitycontent:windowNoTitle
+     */
+    public static final int AppCompatTheme_windowNoTitle=111;
     /**
      * Attributes that can be used with a ButtonBarLayout.
      * <p>Includes the following attributes:</p>
@@ -4314,8 +6041,8 @@ public final class R {
     public static final int[] CollapsingToolbarLayout={
         0x7f020043, 0x7f020044, 0x7f020054, 0x7f02006f, 
         0x7f020070, 0x7f020071, 0x7f020072, 0x7f020073, 
-        0x7f020074, 0x7f020075, 0x7f0200fc, 0x7f020123, 
-        0x7f020124, 0x7f02012d
+        0x7f020074, 0x7f020075, 0x7f0200ff, 0x7f020126, 
+        0x7f020127, 0x7f020130
       };
     /**
      * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#collapsedTitleGravity}
@@ -6480,7 +8207,7 @@ public final class R {
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-        0x7f02008d, 0x7f0200fb
+        0x7f02008d, 0x7f0200fe
       };
     /**
      * Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -6645,7 +8372,7 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
         0x7f020027, 0x7f020028, 0x7f02002f, 0x7f020045, 
-        0x7f020063, 0x7f020078, 0x7f0200f5, 0x7f020121
+        0x7f020063, 0x7f020078, 0x7f0200f7, 0x7f020124
       };
     /**
      * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#arrowHeadLength}
@@ -6773,7 +8500,7 @@ public final class R {
      */
     public static final int[] FloatingActionButton={
         0x010100d4, 0x7f02002d, 0x7f02002e, 0x7f020031, 
-        0x7f02006a, 0x7f020076, 0x7f0200e1, 0x7f0200e9
+        0x7f02006a, 0x7f020076, 0x7f0200e1, 0x7f0200eb
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -7019,7 +8746,7 @@ public final class R {
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
         0x01010128, 0x7f02005f, 0x7f020061, 0x7f0200d1, 
-        0x7f0200f1
+        0x7f0200f3
       };
     /**
      * Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -7446,7 +9173,7 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f02000d, 0x7f02001f, 0x7f020020, 
-        0x7f0200f0
+        0x7f0200f2
       };
     /**
      * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionLayout}
@@ -7951,7 +9678,7 @@ public final class R {
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f0200fa
+        0x7f0200fd
       };
     /**
      * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#state_above_anchor}
@@ -8008,8 +9735,8 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-        0x010100c4, 0x7f02008f, 0x7f0200e8, 0x7f0200f4, 
-        0x7f0200f9
+        0x010100c4, 0x7f02008f, 0x7f0200ea, 0x7f0200f6, 
+        0x7f0200fc
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -8170,8 +9897,8 @@ public final class R {
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
         0x7f02003f, 0x7f02004e, 0x7f02005b, 0x7f020079, 
         0x7f020082, 0x7f02008e, 0x7f0200e4, 0x7f0200e5, 
-        0x7f0200ea, 0x7f0200eb, 0x7f0200fd, 0x7f020102, 
-        0x7f020131
+        0x7f0200ec, 0x7f0200ed, 0x7f020100, 0x7f020105, 
+        0x7f020134
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -8488,18 +10215,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_popupTheme com.estimote.proximitycontent:popupTheme}</code></td><td></td></tr>
      * </table>
+     * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
      * @see #Spinner_android_prompt
      * @see #Spinner_android_dropDownWidth
      * @see #Spinner_popupTheme
      */
     public static final int[] Spinner={
-        0x01010176, 0x0101017b, 0x01010262, 0x7f0200de
+        0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
+        0x7f0200de
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
@@ -8523,7 +10253,19 @@ public final class R {
      *
      * @attr name android:dropDownWidth
      */
-    public static final int Spinner_android_dropDownWidth=2;
+    public static final int Spinner_android_dropDownWidth=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#entries}
+     * attribute's value can be found in the {@link #Spinner} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:entries
+     */
+    public static final int Spinner_android_entries=0;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -8538,7 +10280,7 @@ public final class R {
      *
      * @attr name android:popupBackground
      */
-    public static final int Spinner_android_popupBackground=0;
+    public static final int Spinner_android_popupBackground=1;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#prompt}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -8550,7 +10292,7 @@ public final class R {
      *
      * @attr name android:prompt
      */
-    public static final int Spinner_android_prompt=1;
+    public static final int Spinner_android_prompt=2;
     /**
      * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -8562,7 +10304,7 @@ public final class R {
      *
      * @attr name com.estimote.proximitycontent:popupTheme
      */
-    public static final int Spinner_popupTheme=3;
+    public static final int Spinner_popupTheme=4;
     /**
      * Attributes that can be used with a SwitchCompat.
      * <p>Includes the following attributes:</p>
@@ -8593,9 +10335,9 @@ public final class R {
      * @see #SwitchCompat_track
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f0200f2, 
-        0x7f0200f8, 0x7f020103, 0x7f020104, 0x7f020106, 
-        0x7f020122, 0x7f020130
+        0x01010124, 0x01010125, 0x01010142, 0x7f0200f4, 
+        0x7f0200fa, 0x7f020106, 0x7f020107, 0x7f020109, 
+        0x7f020125, 0x7f020133
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -8754,10 +10496,10 @@ public final class R {
      * @see #TabLayout_tabTextColor
      */
     public static final int[] TabLayout={
-        0x7f020107, 0x7f020108, 0x7f020109, 0x7f02010a, 
-        0x7f02010b, 0x7f02010c, 0x7f02010d, 0x7f02010e, 
-        0x7f02010f, 0x7f020110, 0x7f020111, 0x7f020112, 
-        0x7f020113, 0x7f020114, 0x7f020115, 0x7f020116
+        0x7f02010a, 0x7f02010b, 0x7f02010c, 0x7f02010d, 
+        0x7f02010e, 0x7f02010f, 0x7f020110, 0x7f020111, 
+        0x7f020112, 0x7f020113, 0x7f020114, 0x7f020115, 
+        0x7f020116, 0x7f020117, 0x7f020118, 0x7f020119
       };
     /**
      * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#tabBackground}
@@ -8997,7 +10739,7 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x01010161, 0x01010162, 0x01010163, 0x01010164, 
-        0x7f020117
+        0x7f02011a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
@@ -9263,1624 +11005,6 @@ public final class R {
      */
     public static final int TextInputLayout_hintTextAppearance=9;
     /**
-     * Attributes that can be used with a Theme.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarDivider com.estimote.proximitycontent:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarItemBackground com.estimote.proximitycontent:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarPopupTheme com.estimote.proximitycontent:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarSize com.estimote.proximitycontent:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarSplitStyle com.estimote.proximitycontent:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarStyle com.estimote.proximitycontent:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTabBarStyle com.estimote.proximitycontent:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTabStyle com.estimote.proximitycontent:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTabTextStyle com.estimote.proximitycontent:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarTheme com.estimote.proximitycontent:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionBarWidgetTheme com.estimote.proximitycontent:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionButtonStyle com.estimote.proximitycontent:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionDropDownStyle com.estimote.proximitycontent:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionMenuTextAppearance com.estimote.proximitycontent:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionMenuTextColor com.estimote.proximitycontent:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeBackground com.estimote.proximitycontent:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.estimote.proximitycontent:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCloseDrawable com.estimote.proximitycontent:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCopyDrawable com.estimote.proximitycontent:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeCutDrawable com.estimote.proximitycontent:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeFindDrawable com.estimote.proximitycontent:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModePasteDrawable com.estimote.proximitycontent:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.estimote.proximitycontent:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.estimote.proximitycontent:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeShareDrawable com.estimote.proximitycontent:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeSplitBackground com.estimote.proximitycontent:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeStyle com.estimote.proximitycontent:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.estimote.proximitycontent:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.estimote.proximitycontent:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.estimote.proximitycontent:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_activityChooserViewStyle com.estimote.proximitycontent:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.estimote.proximitycontent:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogCenterButtons com.estimote.proximitycontent:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogStyle com.estimote.proximitycontent:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_alertDialogTheme com.estimote.proximitycontent:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.estimote.proximitycontent:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_borderlessButtonStyle com.estimote.proximitycontent:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarButtonStyle com.estimote.proximitycontent:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.estimote.proximitycontent:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.estimote.proximitycontent:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.estimote.proximitycontent:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonBarStyle com.estimote.proximitycontent:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonStyle com.estimote.proximitycontent:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_buttonStyleSmall com.estimote.proximitycontent:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_checkboxStyle com.estimote.proximitycontent:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_checkedTextViewStyle com.estimote.proximitycontent:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorAccent com.estimote.proximitycontent:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorButtonNormal com.estimote.proximitycontent:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorControlActivated com.estimote.proximitycontent:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorControlHighlight com.estimote.proximitycontent:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorControlNormal com.estimote.proximitycontent:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorPrimary com.estimote.proximitycontent:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorPrimaryDark com.estimote.proximitycontent:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.estimote.proximitycontent:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_controlBackground com.estimote.proximitycontent:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dialogPreferredPadding com.estimote.proximitycontent:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dialogTheme com.estimote.proximitycontent:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dividerHorizontal com.estimote.proximitycontent:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dividerVertical com.estimote.proximitycontent:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dropDownListViewStyle com.estimote.proximitycontent:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.estimote.proximitycontent:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_editTextBackground com.estimote.proximitycontent:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_editTextColor com.estimote.proximitycontent:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_editTextStyle com.estimote.proximitycontent:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_homeAsUpIndicator com.estimote.proximitycontent:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_imageButtonStyle com.estimote.proximitycontent:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.estimote.proximitycontent:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listDividerAlertDialog com.estimote.proximitycontent:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPopupWindowStyle com.estimote.proximitycontent:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemHeight com.estimote.proximitycontent:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.estimote.proximitycontent:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.estimote.proximitycontent:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.estimote.proximitycontent:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.estimote.proximitycontent:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_panelBackground com.estimote.proximitycontent:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_panelMenuListTheme com.estimote.proximitycontent:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_panelMenuListWidth com.estimote.proximitycontent:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_popupMenuStyle com.estimote.proximitycontent:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_popupWindowStyle com.estimote.proximitycontent:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_radioButtonStyle com.estimote.proximitycontent:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_ratingBarStyle com.estimote.proximitycontent:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_searchViewStyle com.estimote.proximitycontent:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_seekBarStyle com.estimote.proximitycontent:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_selectableItemBackground com.estimote.proximitycontent:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.estimote.proximitycontent:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.estimote.proximitycontent:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_spinnerStyle com.estimote.proximitycontent:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_switchStyle com.estimote.proximitycontent:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.estimote.proximitycontent:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceListItem com.estimote.proximitycontent:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.estimote.proximitycontent:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.estimote.proximitycontent:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.estimote.proximitycontent:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.estimote.proximitycontent:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.estimote.proximitycontent:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_textColorSearchUrl com.estimote.proximitycontent:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.estimote.proximitycontent:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_toolbarStyle com.estimote.proximitycontent:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowActionBar com.estimote.proximitycontent:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowActionBarOverlay com.estimote.proximitycontent:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowActionModeOverlay com.estimote.proximitycontent:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedHeightMajor com.estimote.proximitycontent:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedHeightMinor com.estimote.proximitycontent:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedWidthMajor com.estimote.proximitycontent:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowFixedWidthMinor com.estimote.proximitycontent:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowMinWidthMajor com.estimote.proximitycontent:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowMinWidthMinor com.estimote.proximitycontent:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Theme_windowNoTitle com.estimote.proximitycontent:windowNoTitle}</code></td><td></td></tr>
-     * </table>
-     * @see #Theme_android_windowIsFloating
-     * @see #Theme_android_windowAnimationStyle
-     * @see #Theme_actionBarDivider
-     * @see #Theme_actionBarItemBackground
-     * @see #Theme_actionBarPopupTheme
-     * @see #Theme_actionBarSize
-     * @see #Theme_actionBarSplitStyle
-     * @see #Theme_actionBarStyle
-     * @see #Theme_actionBarTabBarStyle
-     * @see #Theme_actionBarTabStyle
-     * @see #Theme_actionBarTabTextStyle
-     * @see #Theme_actionBarTheme
-     * @see #Theme_actionBarWidgetTheme
-     * @see #Theme_actionButtonStyle
-     * @see #Theme_actionDropDownStyle
-     * @see #Theme_actionMenuTextAppearance
-     * @see #Theme_actionMenuTextColor
-     * @see #Theme_actionModeBackground
-     * @see #Theme_actionModeCloseButtonStyle
-     * @see #Theme_actionModeCloseDrawable
-     * @see #Theme_actionModeCopyDrawable
-     * @see #Theme_actionModeCutDrawable
-     * @see #Theme_actionModeFindDrawable
-     * @see #Theme_actionModePasteDrawable
-     * @see #Theme_actionModePopupWindowStyle
-     * @see #Theme_actionModeSelectAllDrawable
-     * @see #Theme_actionModeShareDrawable
-     * @see #Theme_actionModeSplitBackground
-     * @see #Theme_actionModeStyle
-     * @see #Theme_actionModeWebSearchDrawable
-     * @see #Theme_actionOverflowButtonStyle
-     * @see #Theme_actionOverflowMenuStyle
-     * @see #Theme_activityChooserViewStyle
-     * @see #Theme_alertDialogButtonGroupStyle
-     * @see #Theme_alertDialogCenterButtons
-     * @see #Theme_alertDialogStyle
-     * @see #Theme_alertDialogTheme
-     * @see #Theme_autoCompleteTextViewStyle
-     * @see #Theme_borderlessButtonStyle
-     * @see #Theme_buttonBarButtonStyle
-     * @see #Theme_buttonBarNegativeButtonStyle
-     * @see #Theme_buttonBarNeutralButtonStyle
-     * @see #Theme_buttonBarPositiveButtonStyle
-     * @see #Theme_buttonBarStyle
-     * @see #Theme_buttonStyle
-     * @see #Theme_buttonStyleSmall
-     * @see #Theme_checkboxStyle
-     * @see #Theme_checkedTextViewStyle
-     * @see #Theme_colorAccent
-     * @see #Theme_colorButtonNormal
-     * @see #Theme_colorControlActivated
-     * @see #Theme_colorControlHighlight
-     * @see #Theme_colorControlNormal
-     * @see #Theme_colorPrimary
-     * @see #Theme_colorPrimaryDark
-     * @see #Theme_colorSwitchThumbNormal
-     * @see #Theme_controlBackground
-     * @see #Theme_dialogPreferredPadding
-     * @see #Theme_dialogTheme
-     * @see #Theme_dividerHorizontal
-     * @see #Theme_dividerVertical
-     * @see #Theme_dropDownListViewStyle
-     * @see #Theme_dropdownListPreferredItemHeight
-     * @see #Theme_editTextBackground
-     * @see #Theme_editTextColor
-     * @see #Theme_editTextStyle
-     * @see #Theme_homeAsUpIndicator
-     * @see #Theme_imageButtonStyle
-     * @see #Theme_listChoiceBackgroundIndicator
-     * @see #Theme_listDividerAlertDialog
-     * @see #Theme_listPopupWindowStyle
-     * @see #Theme_listPreferredItemHeight
-     * @see #Theme_listPreferredItemHeightLarge
-     * @see #Theme_listPreferredItemHeightSmall
-     * @see #Theme_listPreferredItemPaddingLeft
-     * @see #Theme_listPreferredItemPaddingRight
-     * @see #Theme_panelBackground
-     * @see #Theme_panelMenuListTheme
-     * @see #Theme_panelMenuListWidth
-     * @see #Theme_popupMenuStyle
-     * @see #Theme_popupWindowStyle
-     * @see #Theme_radioButtonStyle
-     * @see #Theme_ratingBarStyle
-     * @see #Theme_searchViewStyle
-     * @see #Theme_seekBarStyle
-     * @see #Theme_selectableItemBackground
-     * @see #Theme_selectableItemBackgroundBorderless
-     * @see #Theme_spinnerDropDownItemStyle
-     * @see #Theme_spinnerStyle
-     * @see #Theme_switchStyle
-     * @see #Theme_textAppearanceLargePopupMenu
-     * @see #Theme_textAppearanceListItem
-     * @see #Theme_textAppearanceListItemSmall
-     * @see #Theme_textAppearanceSearchResultSubtitle
-     * @see #Theme_textAppearanceSearchResultTitle
-     * @see #Theme_textAppearanceSmallPopupMenu
-     * @see #Theme_textColorAlertDialogListItem
-     * @see #Theme_textColorSearchUrl
-     * @see #Theme_toolbarNavigationButtonStyle
-     * @see #Theme_toolbarStyle
-     * @see #Theme_windowActionBar
-     * @see #Theme_windowActionBarOverlay
-     * @see #Theme_windowActionModeOverlay
-     * @see #Theme_windowFixedHeightMajor
-     * @see #Theme_windowFixedHeightMinor
-     * @see #Theme_windowFixedWidthMajor
-     * @see #Theme_windowFixedWidthMinor
-     * @see #Theme_windowMinWidthMajor
-     * @see #Theme_windowMinWidthMinor
-     * @see #Theme_windowNoTitle
-     */
-    public static final int[] Theme={
-        0x01010057, 0x010100ae, 0x7f020000, 0x7f020001, 
-        0x7f020002, 0x7f020003, 0x7f020004, 0x7f020005, 
-        0x7f020006, 0x7f020007, 0x7f020008, 0x7f020009, 
-        0x7f02000a, 0x7f02000b, 0x7f02000c, 0x7f02000e, 
-        0x7f02000f, 0x7f020010, 0x7f020011, 0x7f020012, 
-        0x7f020013, 0x7f020014, 0x7f020015, 0x7f020016, 
-        0x7f020017, 0x7f020018, 0x7f020019, 0x7f02001a, 
-        0x7f02001b, 0x7f02001c, 0x7f02001d, 0x7f02001e, 
-        0x7f020021, 0x7f020022, 0x7f020023, 0x7f020024, 
-        0x7f020025, 0x7f020029, 0x7f020032, 0x7f020033, 
-        0x7f020034, 0x7f020035, 0x7f020036, 0x7f020037, 
-        0x7f020039, 0x7f02003a, 0x7f02003d, 0x7f02003e, 
-        0x7f020046, 0x7f020047, 0x7f020048, 0x7f020049, 
-        0x7f02004a, 0x7f02004b, 0x7f02004c, 0x7f02004d, 
-        0x7f020055, 0x7f02005c, 0x7f02005d, 0x7f020060, 
-        0x7f020062, 0x7f020065, 0x7f020066, 0x7f020067, 
-        0x7f020068, 0x7f020069, 0x7f02007f, 0x7f020083, 
-        0x7f0200c3, 0x7f0200c4, 0x7f0200c7, 0x7f0200c8, 
-        0x7f0200c9, 0x7f0200ca, 0x7f0200cb, 0x7f0200cc, 
-        0x7f0200da, 0x7f0200db, 0x7f0200dc, 0x7f0200dd, 
-        0x7f0200df, 0x7f0200e6, 0x7f0200e7, 0x7f0200ec, 
-        0x7f0200ed, 0x7f0200ee, 0x7f0200ef, 0x7f0200f6, 
-        0x7f0200f7, 0x7f020105, 0x7f020118, 0x7f020119, 
-        0x7f02011a, 0x7f02011b, 0x7f02011c, 0x7f02011d, 
-        0x7f02011e, 0x7f02011f, 0x7f02012e, 0x7f02012f, 
-        0x7f020132, 0x7f020133, 0x7f020134, 0x7f020135, 
-        0x7f020136, 0x7f020137, 0x7f020138, 0x7f020139, 
-        0x7f02013a, 0x7f02013b
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarDivider}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarDivider
-     */
-    public static final int Theme_actionBarDivider=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarItemBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarItemBackground
-     */
-    public static final int Theme_actionBarItemBackground=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarPopupTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarPopupTheme
-     */
-    public static final int Theme_actionBarPopupTheme=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarSize}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>wrap_content</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.estimote.proximitycontent:actionBarSize
-     */
-    public static final int Theme_actionBarSize=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarSplitStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarSplitStyle
-     */
-    public static final int Theme_actionBarSplitStyle=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarStyle
-     */
-    public static final int Theme_actionBarStyle=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarTabBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarTabBarStyle
-     */
-    public static final int Theme_actionBarTabBarStyle=8;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarTabStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarTabStyle
-     */
-    public static final int Theme_actionBarTabStyle=9;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarTabTextStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarTabTextStyle
-     */
-    public static final int Theme_actionBarTabTextStyle=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarTheme
-     */
-    public static final int Theme_actionBarTheme=11;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionBarWidgetTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionBarWidgetTheme
-     */
-    public static final int Theme_actionBarWidgetTheme=12;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionButtonStyle
-     */
-    public static final int Theme_actionButtonStyle=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionDropDownStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionDropDownStyle
-     */
-    public static final int Theme_actionDropDownStyle=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionMenuTextAppearance}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionMenuTextAppearance
-     */
-    public static final int Theme_actionMenuTextAppearance=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionMenuTextColor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionMenuTextColor
-     */
-    public static final int Theme_actionMenuTextColor=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeBackground
-     */
-    public static final int Theme_actionModeBackground=17;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeCloseButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeCloseButtonStyle
-     */
-    public static final int Theme_actionModeCloseButtonStyle=18;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeCloseDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeCloseDrawable
-     */
-    public static final int Theme_actionModeCloseDrawable=19;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeCopyDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeCopyDrawable
-     */
-    public static final int Theme_actionModeCopyDrawable=20;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeCutDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeCutDrawable
-     */
-    public static final int Theme_actionModeCutDrawable=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeFindDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeFindDrawable
-     */
-    public static final int Theme_actionModeFindDrawable=22;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModePasteDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModePasteDrawable
-     */
-    public static final int Theme_actionModePasteDrawable=23;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModePopupWindowStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModePopupWindowStyle
-     */
-    public static final int Theme_actionModePopupWindowStyle=24;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeSelectAllDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeSelectAllDrawable
-     */
-    public static final int Theme_actionModeSelectAllDrawable=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeShareDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeShareDrawable
-     */
-    public static final int Theme_actionModeShareDrawable=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeSplitBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeSplitBackground
-     */
-    public static final int Theme_actionModeSplitBackground=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeStyle
-     */
-    public static final int Theme_actionModeStyle=28;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionModeWebSearchDrawable}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionModeWebSearchDrawable
-     */
-    public static final int Theme_actionModeWebSearchDrawable=29;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionOverflowButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionOverflowButtonStyle
-     */
-    public static final int Theme_actionOverflowButtonStyle=30;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#actionOverflowMenuStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:actionOverflowMenuStyle
-     */
-    public static final int Theme_actionOverflowMenuStyle=31;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#activityChooserViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:activityChooserViewStyle
-     */
-    public static final int Theme_activityChooserViewStyle=32;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#alertDialogButtonGroupStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:alertDialogButtonGroupStyle
-     */
-    public static final int Theme_alertDialogButtonGroupStyle=33;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#alertDialogCenterButtons}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.estimote.proximitycontent:alertDialogCenterButtons
-     */
-    public static final int Theme_alertDialogCenterButtons=34;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#alertDialogStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:alertDialogStyle
-     */
-    public static final int Theme_alertDialogStyle=35;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#alertDialogTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:alertDialogTheme
-     */
-    public static final int Theme_alertDialogTheme=36;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:windowAnimationStyle
-     */
-    public static final int Theme_android_windowAnimationStyle=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:windowIsFloating
-     */
-    public static final int Theme_android_windowIsFloating=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#autoCompleteTextViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:autoCompleteTextViewStyle
-     */
-    public static final int Theme_autoCompleteTextViewStyle=37;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#borderlessButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:borderlessButtonStyle
-     */
-    public static final int Theme_borderlessButtonStyle=38;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:buttonBarButtonStyle
-     */
-    public static final int Theme_buttonBarButtonStyle=39;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarNegativeButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:buttonBarNegativeButtonStyle
-     */
-    public static final int Theme_buttonBarNegativeButtonStyle=40;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarNeutralButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:buttonBarNeutralButtonStyle
-     */
-    public static final int Theme_buttonBarNeutralButtonStyle=41;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarPositiveButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:buttonBarPositiveButtonStyle
-     */
-    public static final int Theme_buttonBarPositiveButtonStyle=42;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:buttonBarStyle
-     */
-    public static final int Theme_buttonBarStyle=43;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:buttonStyle
-     */
-    public static final int Theme_buttonStyle=44;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#buttonStyleSmall}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:buttonStyleSmall
-     */
-    public static final int Theme_buttonStyleSmall=45;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#checkboxStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:checkboxStyle
-     */
-    public static final int Theme_checkboxStyle=46;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#checkedTextViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:checkedTextViewStyle
-     */
-    public static final int Theme_checkedTextViewStyle=47;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorAccent}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:colorAccent
-     */
-    public static final int Theme_colorAccent=48;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorButtonNormal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:colorButtonNormal
-     */
-    public static final int Theme_colorButtonNormal=49;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorControlActivated}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:colorControlActivated
-     */
-    public static final int Theme_colorControlActivated=50;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorControlHighlight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:colorControlHighlight
-     */
-    public static final int Theme_colorControlHighlight=51;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorControlNormal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:colorControlNormal
-     */
-    public static final int Theme_colorControlNormal=52;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorPrimary}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:colorPrimary
-     */
-    public static final int Theme_colorPrimary=53;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorPrimaryDark}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:colorPrimaryDark
-     */
-    public static final int Theme_colorPrimaryDark=54;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#colorSwitchThumbNormal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:colorSwitchThumbNormal
-     */
-    public static final int Theme_colorSwitchThumbNormal=55;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#controlBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:controlBackground
-     */
-    public static final int Theme_controlBackground=56;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dialogPreferredPadding}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.estimote.proximitycontent:dialogPreferredPadding
-     */
-    public static final int Theme_dialogPreferredPadding=57;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dialogTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:dialogTheme
-     */
-    public static final int Theme_dialogTheme=58;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dividerHorizontal}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:dividerHorizontal
-     */
-    public static final int Theme_dividerHorizontal=59;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dividerVertical}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:dividerVertical
-     */
-    public static final int Theme_dividerVertical=60;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dropDownListViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:dropDownListViewStyle
-     */
-    public static final int Theme_dropDownListViewStyle=61;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#dropdownListPreferredItemHeight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.estimote.proximitycontent:dropdownListPreferredItemHeight
-     */
-    public static final int Theme_dropdownListPreferredItemHeight=62;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#editTextBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:editTextBackground
-     */
-    public static final int Theme_editTextBackground=63;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#editTextColor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:editTextColor
-     */
-    public static final int Theme_editTextColor=64;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#editTextStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:editTextStyle
-     */
-    public static final int Theme_editTextStyle=65;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#homeAsUpIndicator}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:homeAsUpIndicator
-     */
-    public static final int Theme_homeAsUpIndicator=66;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#imageButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:imageButtonStyle
-     */
-    public static final int Theme_imageButtonStyle=67;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listChoiceBackgroundIndicator}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:listChoiceBackgroundIndicator
-     */
-    public static final int Theme_listChoiceBackgroundIndicator=68;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listDividerAlertDialog}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:listDividerAlertDialog
-     */
-    public static final int Theme_listDividerAlertDialog=69;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPopupWindowStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:listPopupWindowStyle
-     */
-    public static final int Theme_listPopupWindowStyle=70;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemHeight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.estimote.proximitycontent:listPreferredItemHeight
-     */
-    public static final int Theme_listPreferredItemHeight=71;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemHeightLarge}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.estimote.proximitycontent:listPreferredItemHeightLarge
-     */
-    public static final int Theme_listPreferredItemHeightLarge=72;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemHeightSmall}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.estimote.proximitycontent:listPreferredItemHeightSmall
-     */
-    public static final int Theme_listPreferredItemHeightSmall=73;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemPaddingLeft}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.estimote.proximitycontent:listPreferredItemPaddingLeft
-     */
-    public static final int Theme_listPreferredItemPaddingLeft=74;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#listPreferredItemPaddingRight}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.estimote.proximitycontent:listPreferredItemPaddingRight
-     */
-    public static final int Theme_listPreferredItemPaddingRight=75;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#panelBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:panelBackground
-     */
-    public static final int Theme_panelBackground=76;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#panelMenuListTheme}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:panelMenuListTheme
-     */
-    public static final int Theme_panelMenuListTheme=77;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#panelMenuListWidth}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.estimote.proximitycontent:panelMenuListWidth
-     */
-    public static final int Theme_panelMenuListWidth=78;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#popupMenuStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:popupMenuStyle
-     */
-    public static final int Theme_popupMenuStyle=79;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#popupWindowStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:popupWindowStyle
-     */
-    public static final int Theme_popupWindowStyle=80;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#radioButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:radioButtonStyle
-     */
-    public static final int Theme_radioButtonStyle=81;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#ratingBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:ratingBarStyle
-     */
-    public static final int Theme_ratingBarStyle=82;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#searchViewStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:searchViewStyle
-     */
-    public static final int Theme_searchViewStyle=83;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#seekBarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:seekBarStyle
-     */
-    public static final int Theme_seekBarStyle=84;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#selectableItemBackground}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:selectableItemBackground
-     */
-    public static final int Theme_selectableItemBackground=85;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#selectableItemBackgroundBorderless}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:selectableItemBackgroundBorderless
-     */
-    public static final int Theme_selectableItemBackgroundBorderless=86;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#spinnerDropDownItemStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:spinnerDropDownItemStyle
-     */
-    public static final int Theme_spinnerDropDownItemStyle=87;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#spinnerStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:spinnerStyle
-     */
-    public static final int Theme_spinnerStyle=88;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#switchStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:switchStyle
-     */
-    public static final int Theme_switchStyle=89;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceLargePopupMenu}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:textAppearanceLargePopupMenu
-     */
-    public static final int Theme_textAppearanceLargePopupMenu=90;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceListItem}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:textAppearanceListItem
-     */
-    public static final int Theme_textAppearanceListItem=91;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceListItemSmall}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:textAppearanceListItemSmall
-     */
-    public static final int Theme_textAppearanceListItemSmall=92;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceSearchResultSubtitle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:textAppearanceSearchResultSubtitle
-     */
-    public static final int Theme_textAppearanceSearchResultSubtitle=93;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceSearchResultTitle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:textAppearanceSearchResultTitle
-     */
-    public static final int Theme_textAppearanceSearchResultTitle=94;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textAppearanceSmallPopupMenu}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:textAppearanceSmallPopupMenu
-     */
-    public static final int Theme_textAppearanceSmallPopupMenu=95;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textColorAlertDialogListItem}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:textColorAlertDialogListItem
-     */
-    public static final int Theme_textColorAlertDialogListItem=96;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#textColorSearchUrl}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:textColorSearchUrl
-     */
-    public static final int Theme_textColorSearchUrl=97;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#toolbarNavigationButtonStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:toolbarNavigationButtonStyle
-     */
-    public static final int Theme_toolbarNavigationButtonStyle=98;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#toolbarStyle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.estimote.proximitycontent:toolbarStyle
-     */
-    public static final int Theme_toolbarStyle=99;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowActionBar}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.estimote.proximitycontent:windowActionBar
-     */
-    public static final int Theme_windowActionBar=100;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowActionBarOverlay}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.estimote.proximitycontent:windowActionBarOverlay
-     */
-    public static final int Theme_windowActionBarOverlay=101;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowActionModeOverlay}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.estimote.proximitycontent:windowActionModeOverlay
-     */
-    public static final int Theme_windowActionModeOverlay=102;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowFixedHeightMajor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.estimote.proximitycontent:windowFixedHeightMajor
-     */
-    public static final int Theme_windowFixedHeightMajor=103;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowFixedHeightMinor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.estimote.proximitycontent:windowFixedHeightMinor
-     */
-    public static final int Theme_windowFixedHeightMinor=104;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowFixedWidthMajor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.estimote.proximitycontent:windowFixedWidthMajor
-     */
-    public static final int Theme_windowFixedWidthMajor=105;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowFixedWidthMinor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.estimote.proximitycontent:windowFixedWidthMinor
-     */
-    public static final int Theme_windowFixedWidthMinor=106;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowMinWidthMajor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.estimote.proximitycontent:windowMinWidthMajor
-     */
-    public static final int Theme_windowMinWidthMajor=107;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowMinWidthMinor}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>May be a fractional value, which is a floating point number appended with
-     * either % or %p, such as "<code>14.5%</code>".
-     * The % suffix always means a percentage of the base size;
-     * the optional %p suffix provides a size relative to some parent container.
-     *
-     * @attr name com.estimote.proximitycontent:windowMinWidthMinor
-     */
-    public static final int Theme_windowMinWidthMinor=108;
-    /**
-     * <p>This symbol is the offset where the {@link com.estimote.proximitycontent.R.attr#windowNoTitle}
-     * attribute's value can be found in the {@link #Theme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.estimote.proximitycontent:windowNoTitle
-     */
-    public static final int Theme_windowNoTitle=109;
-    /**
      * Attributes that can be used with a Toolbar.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -10943,10 +11067,10 @@ public final class R {
         0x010100af, 0x01010140, 0x7f020041, 0x7f020042, 
         0x7f020050, 0x7f020051, 0x7f020052, 0x7f020053, 
         0x7f0200cd, 0x7f0200ce, 0x7f0200d0, 0x7f0200d4, 
-        0x7f0200d5, 0x7f0200de, 0x7f0200fe, 0x7f0200ff, 
-        0x7f020100, 0x7f020123, 0x7f020125, 0x7f020126, 
-        0x7f020127, 0x7f020128, 0x7f020129, 0x7f02012a, 
-        0x7f02012b
+        0x7f0200d5, 0x7f0200de, 0x7f020101, 0x7f020102, 
+        0x7f020103, 0x7f020126, 0x7f020128, 0x7f020129, 
+        0x7f02012a, 0x7f02012b, 0x7f02012c, 0x7f02012d, 
+        0x7f02012e
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -11285,7 +11409,7 @@ public final class R {
      */
     public static final int[] View={
         0x01010000, 0x010100da, 0x7f0200d8, 0x7f0200d9, 
-        0x7f020120
+        0x7f020123
       };
     /**
      * Attributes that can be used with a ViewBackgroundHelper.

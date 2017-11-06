@@ -1,18 +1,11 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\samir\\AndroidStudioProjects\\BeaconPres\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+            "outputFile": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\samir\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\12c14b59a97373420572bcf63ccd01b6\\res\\values-w480dp\\values-w480dp.xml",
+                    "source": "C:\\Users\\Jules\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0d58393d75cf954f86fc9a8538a460aa\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
                     "from": {
-                        "startLines": "4,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "289,586",
-                        "endColumns": "61,71",
-                        "endOffsets": "346,653"
-                    },
-                    "to": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
                         "startOffsets": "55,117",

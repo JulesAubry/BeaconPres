@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\samir\\AndroidStudioProjects\\BeaconPres\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+            "outputFile": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v23\\values-ldrtl-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\samir\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\12c14b59a97373420572bcf63ccd01b6\\res\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+                    "source": "C:\\Users\\Jules\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\f03f19fde5546fa9e0e763599511ed29\\res\\values-ldrtl-v23\\values-ldrtl-v23.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

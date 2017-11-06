@@ -1,6 +1,9 @@
 package com.estimote.proximitycontent;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +14,8 @@ import com.estimote.proximitycontent.estimote.EstimoteCloudBeaconDetails;
 import com.estimote.proximitycontent.estimote.EstimoteCloudBeaconDetailsFactory;
 import com.estimote.proximitycontent.estimote.ProximityContentManager;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.util.*;
 
 //
@@ -22,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
    private static final String TAG = "MainActivity";
    private ProximityContentManager proximityContentManager;
    private Map<String, String> beaconsIDNames;
+   private DatabaseHandler db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,12 +100,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setUPDB() {
-        DatabaseHandler db = new DatabaseHandler(this);
+        db = new DatabaseHandler(this);
 
-        Log.d("Adding: ", "Adding ...");
         db.addProduct(new Product("Shoes"));
         db.addProduct(new Product("Socks"));
-
+        /*
         // Reading all contacts
         Log.d("Reading: ", "Reading all contacts..");
         List<Product> products = db.getAllProducts();
@@ -109,5 +114,24 @@ public class MainActivity extends AppCompatActivity {
             // Writing Contacts to log
             Log.d("Name: ", log);
         }
+        */
+        Drawable d = this.getDrawable(R.drawable.shoe_1);
+        Bitmap bitmap = ((BitmapDrawable)d).getBitmap();
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+        byte[] bitmapdata = stream.toByteArray();
+        db.addShoe(new Shoe("TIMBERLAND AYA", 78.9, bitmapdata));
+        /*
+        // Reading all contacts
+        Log.d("Reading: ", "Reading all shoes..");
+        List<Shoe> shoes = db.getAllShoes();
+
+        for (Shoe cn : shoes) {
+            String log = "Id: " + cn.getIdS() + " ,Name: " + cn.getNameS();
+            // Writing Contacts to log
+            Log.d("Name: ", log);
+        }*/
     }
+
+
 }
