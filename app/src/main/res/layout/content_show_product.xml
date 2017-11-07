@@ -8,4 +8,17 @@
     tools:context="com.estimote.proximitycontent.ShowProduct"
     tools:showIn="@layout/activity_show_product">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerV">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

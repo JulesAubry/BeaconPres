@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jules\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\0d58393d75cf954f86fc9a8538a460aa\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Jules\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b48bca4ad7cc5f9bf56483d2a68b47ef\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

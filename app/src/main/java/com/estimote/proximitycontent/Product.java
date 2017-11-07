@@ -1,46 +1,74 @@
 package com.estimote.proximitycontent;
 
 /**
- * Created by Jules on 01/11/2017.
+ * Created by Jules on 02/11/2017.
  */
-
-import android.media.Image;
-
-import java.util.*;
 
 public class Product {
 
-    protected int id;
-    protected String name;
-
-    public int getId() {
-        return id;
+    public String getNameS() {
+        return nameS;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setNameS(String nameS) {
+        this.nameS = nameS;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
+    }
+
+    public int getCategoryID() {
+        return productID;
+    }
+
+    public void setCategoryID(int productID) {
+        this.productID = productID;
+    }
+
+    public int getIdS() {
+        return idS;
+    }
+
+    public void setIdS(int idS) {
+        this.idS = idS;
+    }
+
+    private int idS;
+    private String nameS;
+    private double price;
+    private byte[] image;
+    private int productID;
+
+    public Product(String nameS, double price, byte[] image, int productID) {
+        this.nameS = nameS;
+        this.price = price;
+        this.image = image;
+        this.productID = productID;
+    }
+
+    public Product(int idS, String nameS, double price, byte[] image, int productID) {
+        this.idS = idS;
+        this.nameS = nameS;
+        this.price = price;
+        this.image = image;
+        this.productID = productID;
     }
 
     public Product() {
-
+        super();
     }
-
-    public Product(String name) {
-        this.name = name;
-    }
-
-    public Product(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
 
 }

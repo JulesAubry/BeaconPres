@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
    private static final String TAG = "MainActivity";
    private ProximityContentManager proximityContentManager;
    private Map<String, String> beaconsIDNames;
-   private DatabaseHandler db;
+   public static DatabaseHandler db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,35 +102,50 @@ public class MainActivity extends AppCompatActivity {
     public void setUPDB() {
         db = new DatabaseHandler(this);
 
-        db.addProduct(new Product("Shoes"));
-        db.addProduct(new Product("Socks"));
+        db.addCategory(new Category("Shoes"));
+        db.addCategory(new Category("Pants"));
+        db.addCategory(new Category("Socks"));
         /*
         // Reading all contacts
         Log.d("Reading: ", "Reading all contacts..");
-        List<Product> products = db.getAllProducts();
+        List<Category> products = db.getAllCategorys();
 
-        for (Product cn : products) {
+        for (Category cn : products) {
             String log = "Id: " + cn.getId() + " ,Name: " + cn.getName();
             // Writing Contacts to log
             Log.d("Name: ", log);
         }
         */
-        Drawable d = this.getDrawable(R.drawable.shoe_1);
-        Bitmap bitmap = ((BitmapDrawable)d).getBitmap();
-        ByteArrayOutputStream stream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
-        byte[] bitmapdata = stream.toByteArray();
-        db.addShoe(new Shoe("TIMBERLAND AYA", 78.9, bitmapdata));
-        /*
-        // Reading all contacts
-        Log.d("Reading: ", "Reading all shoes..");
-        List<Shoe> shoes = db.getAllShoes();
 
-        for (Shoe cn : shoes) {
+        Category pdr = db.getCategory("Shoes");
+        db.addProduct(new Product("TIMBERLAND NEW MAN", 78.9, toByteArray(R.drawable.shoes_1), pdr.getId()));
+        db.addProduct(new Product("NIKE AIR MAX", 48.50, toByteArray(R.drawable.shoes_2), pdr.getId()));
+
+        Category pdr_2 = db.getCategory("Socks");
+        db.addProduct(new Product("YELLOW SOCKS", 10.4, toByteArray(R.drawable.socks_1), pdr_2.getId()));
+        db.addProduct(new Product("RED NIKE SOCKS", 11.6, toByteArray(R.drawable.socks_2), pdr_2.getId()));
+
+        Category pdr_3 = db.getCategory("Pants");
+        db.addProduct(new Product("BLUE JEAN", 120.0, toByteArray(R.drawable.pants_1), pdr_3.getId()));
+        db.addProduct(new Product("RUNNING PANTS", 25.85, toByteArray(R.drawable.pants_2), pdr_3.getId()));
+
+        /*// Reading all contacts
+        Log.d("Reading: ", "Reading all shoes..");
+        List<Product> shoes = db.getAllProducts("Shoes");
+
+        for (Product cn : shoes) {
             String log = "Id: " + cn.getIdS() + " ,Name: " + cn.getNameS();
             // Writing Contacts to log
             Log.d("Name: ", log);
         }*/
+    }
+
+    public byte[] toByteArray(int i) {
+        Drawable d = this.getDrawable(i);
+        Bitmap bitmap = ((BitmapDrawable)d).getBitmap();
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+        return stream.toByteArray();
     }
 
 

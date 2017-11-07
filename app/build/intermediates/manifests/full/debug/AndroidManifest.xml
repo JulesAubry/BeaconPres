@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -41,6 +41,10 @@
             android:name="com.estimote.proximitycontent.ShowProduct"
             android:label="@string/title_activity_show_product"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="25.4.0" />
 
         <service
             android:name="com.estimote.mgmtsdk.connection.strategy.DeviceConnectionProviderService"
