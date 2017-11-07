@@ -3213,10 +3213,11 @@ public final class R {
     public static final int notify_panel_notification_icon_bg=0x7f07006f;
     public static final int pants_1=0x7f070070;
     public static final int pants_2=0x7f070071;
-    public static final int shoes_1=0x7f070072;
-    public static final int shoes_2=0x7f070073;
-    public static final int socks_1=0x7f070074;
-    public static final int socks_2=0x7f070075;
+    public static final int rlogo=0x7f070072;
+    public static final int shoes_1=0x7f070073;
+    public static final int shoes_2=0x7f070074;
+    public static final int socks_1=0x7f070075;
+    public static final int socks_2=0x7f070076;
   }
   public static final class id {
     public static final int action0=0x7f080000;

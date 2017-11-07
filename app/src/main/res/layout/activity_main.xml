@@ -18,7 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:src="@drawable/logo" />
+        android:src="@drawable/rlogo" />
 
     <TextView
         android:id="@+id/textView"
@@ -38,9 +38,8 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp" />
+        android:layout_marginEnd="12dp" />
 
 </RelativeLayout>
