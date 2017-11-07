@@ -28,11 +28,15 @@ public class MainActivity extends AppCompatActivity {
    private ProximityContentManager proximityContentManager;
    private Map<String, String> beaconsIDNames;
    public static DatabaseHandler db;
+   public static List<CartItem> cart;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        cart = new ArrayList<CartItem>();
 
         setUPDB();
 

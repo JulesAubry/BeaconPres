@@ -5,18 +5,23 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.estimote.proximitycontent.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShowProduct extends AppCompatActivity {
+import static com.estimote.proximitycontent.MainActivity.cart;
+
+public class ShowProduct extends AppCompatActivity  implements ProductAdapter.OnItemClicked{
     private String idBeacon = "";
     private List<Product> productList;
     private RecyclerView recyclerView;
@@ -34,12 +39,15 @@ public class ShowProduct extends AppCompatActivity {
         switch (idBeacon) {
             case "80d3fef04d1bc31366d9ae295de22730": //pink_15
                 productList = MainActivity.db.getAllProducts("Shoes");
+                setTitle("Shoes");
                 break;
             case "a2132dfaee5d947574ba39a2d6e4d107": //Lemonade
                 productList = MainActivity.db.getAllProducts("Socks");
+                setTitle("Socks");
                 break;
             case "f8893b99d382feb066100b40034e0d2e": //pink_3
                 productList = MainActivity.db.getAllProducts("Pants");
+                setTitle("Pants");
                 break;
             default:
                 productList = new ArrayList<Product>();
@@ -53,6 +61,22 @@ public class ShowProduct extends AppCompatActivity {
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(mAdapter);
+
+        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL);
+        recyclerView.addItemDecoration(dividerItemDecoration);
+
+        mAdapter.setOnClick(this);
+
     }
 
+    public void setTitle(String str) {
+        TextView t = (TextView)findViewById(R.id.titleSP);
+        t.setText(str);
+    }
+
+    @Override
+    public void onItemClick(int position) {
+        Product product = productList.get(position);
+        cart.add(new CartItem(product,1,1));
+    }
 }

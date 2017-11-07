@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Shopping Kotkantie</string>
     <string name="title_activity_show_product">Your product</string>
+    <string name="titleShowProduct">Title HERE</string>
 </resources>

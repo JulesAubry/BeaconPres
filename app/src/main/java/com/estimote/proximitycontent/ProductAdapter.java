@@ -18,6 +18,10 @@ import android.widget.TextView;
 import java.util.List;
 
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHolder> {
+    private OnItemClicked onClick;
+    public interface OnItemClicked {
+        void onItemClick(int position);
+    }
 
     private List<Product> productsList;
 
@@ -47,7 +51,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onBindViewHolder(MyViewHolder holder, final int position) {
         Product product = productsList.get(position);
 
         Bitmap bm = BitmapFactory.decodeByteArray(product.getImage(), 0, product.getImage().length);
@@ -59,10 +63,22 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
 
         holder.nameTextView.setText(product.getNameS());
         holder.priceTextView.setText(product.getPrice() + " €");
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onClick.onItemClick(position);
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
         return productsList.size();
+    }
+
+    public void setOnClick(OnItemClicked onClick)
+    {
+        this.onClick=onClick;
     }
 }

@@ -14,7 +14,6 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        // TODO: put your App ID and App Token here
         // You can get them by adding your app on https://cloud.estimote.com/#/apps
         EstimoteSDK.initialize(getApplicationContext(), "beaconproject-5ba", "80870c46843e2d252c12f27a746906a6");
 
