@@ -8,6 +8,10 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.Toolbar;
 
 import com.estimote.coresdk.common.requirements.SystemRequirementsChecker;
 import com.estimote.proximitycontent.estimote.EstimoteCloudBeaconDetails;
@@ -35,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        android.support.v7.widget.Toolbar myToolbar = ( android.support.v7.widget.Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
 
         cart = new ArrayList<CartItem>();
 
@@ -152,5 +158,28 @@ public class MainActivity extends AppCompatActivity {
         return stream.toByteArray();
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.layout_menu, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+
+            case R.id.showcart:
+                // User chose the "Favorite" action, mark the current item
+                // as a favorite...
+                Log.d("d","enter inside showcart");
+                return true;
+
+            default:
+                // If we got here, the user's action was not recognized.
+                // Invoke the superclass to handle it.
+                return super.onOptionsItemSelected(item);
+
+        }
+    }
 }
