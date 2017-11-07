@@ -10,6 +10,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -31,6 +34,9 @@ public class ShowProduct extends AppCompatActivity  implements ProductAdapter.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_product);
+
+        android.support.v7.widget.Toolbar myToolbar = ( android.support.v7.widget.Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
 
         Bundle b = getIntent().getExtras();
         if(b != null)
@@ -70,13 +76,37 @@ public class ShowProduct extends AppCompatActivity  implements ProductAdapter.On
     }
 
     public void setTitle(String str) {
-        TextView t = (TextView)findViewById(R.id.titleSP);
-        t.setText(str);
+        getSupportActionBar().setTitle(str);
     }
 
     @Override
     public void onItemClick(int position) {
         Product product = productList.get(position);
         cart.add(new CartItem(product,1,1));
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.layout_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+
+            case R.id.showcart:
+                // User chose the "Favorite" action, mark the current item
+                // as a favorite...
+                Log.d("d","enter inside showcart");
+                return true;
+
+            default:
+                // If we got here, the user's action was not recognized.
+                // Invoke the superclass to handle it.
+                return super.onOptionsItemSelected(item);
+
+        }
     }
 }
