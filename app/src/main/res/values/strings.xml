@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Shopping Kotkantie</string>
-    <string name="title_activity_show_product">Your product</string>
+    <string name="title_activity_show_product">The Product</string>
     <string name="titleShowProduct">Title HERE</string>
     <string name="cart">Cart</string>
+    <string name="title_activity_show_cart">My Cart</string>
+    <string name="ordernow">Order Now</string>
 </resources>

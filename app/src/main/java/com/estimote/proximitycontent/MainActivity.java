@@ -170,9 +170,8 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
 
             case R.id.showcart:
-                // User chose the "Favorite" action, mark the current item
-                // as a favorite...
-                Log.d("d","enter inside showcart");
+                Intent intent = new Intent(this, ShowCart.class);
+                startActivity(intent);
                 return true;
 
             default:

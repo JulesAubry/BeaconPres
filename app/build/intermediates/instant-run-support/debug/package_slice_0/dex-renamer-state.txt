@@ -1,4 +1,4 @@
-#Tue Nov 07 19:07:23 EET 2017
-base.0=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Fri Nov 10 19:49:43 EET 2017
+base.0=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 renamed.0=classes.dex
-file.0=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
+file.0=C\:\\Users\\Jules\\Documents\\EmbeddedProject\\Project\\BeaconPres\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex

@@ -1,5 +1,6 @@
 package com.estimote.proximitycontent;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -35,7 +36,7 @@ public class ShowProduct extends AppCompatActivity  implements ProductAdapter.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_product);
 
-        android.support.v7.widget.Toolbar myToolbar = ( android.support.v7.widget.Toolbar) findViewById(R.id.my_toolbar);
+        android.support.v7.widget.Toolbar myToolbar = ( android.support.v7.widget.Toolbar) findViewById(R.id.my_toolbar_product);
         setSupportActionBar(myToolbar);
 
         Bundle b = getIntent().getExtras();
@@ -82,7 +83,7 @@ public class ShowProduct extends AppCompatActivity  implements ProductAdapter.On
     @Override
     public void onItemClick(int position) {
         Product product = productList.get(position);
-        cart.add(new CartItem(product,1,1));
+        cart.add(new CartItem(product,1,0));
     }
 
     @Override
@@ -97,9 +98,8 @@ public class ShowProduct extends AppCompatActivity  implements ProductAdapter.On
         switch (item.getItemId()) {
 
             case R.id.showcart:
-                // User chose the "Favorite" action, mark the current item
-                // as a favorite...
-                Log.d("d","enter inside showcart");
+                Intent intent = new Intent(this, ShowCart.class);
+                startActivity(intent);
                 return true;
 
             default:

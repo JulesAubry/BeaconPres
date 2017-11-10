@@ -33,7 +33,11 @@
 
         <!-- android:theme="@style/AppTheme"> -->
 
-        <activity android:name="com.estimote.proximitycontent.MainActivity" >
+        <activity
+            android:name="com.estimote.proximitycontent.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,8 +46,17 @@
         </activity>
         <activity
             android:name="com.estimote.proximitycontent.ShowProduct"
+            android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_show_product"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.estimote.proximitycontent.ShowCart"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_show_cart"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"
