@@ -1,7 +1,8 @@
 # BeaconPres
 Embedded Systems Project
 
-Contributors : 
-Jules AUBRY
+Contributors :  
+Jules AUBRY  
+Samita KC
 
 
