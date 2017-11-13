@@ -1,7 +1,9 @@
 package com.estimote.proximitycontent;
 
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.preference.PreferenceManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -15,6 +17,8 @@ import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.google.gson.Gson;
 
 import java.text.DecimalFormat;
 import java.util.List;
@@ -59,12 +63,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.MyViewHolder>{
     public void onBindViewHolder(final CartAdapter.MyViewHolder holder, final int position) {
        final CartItem cart = cartList.get(position);
 
-        Bitmap bm = BitmapFactory.decodeByteArray(cart.getProduct().getImage(), 0, cart.getProduct().getImage().length);
-        DisplayMetrics dm = new DisplayMetrics();
-
-        holder.imageView.setMinimumHeight(dm.heightPixels);
-        holder.imageView.setMinimumWidth(dm.widthPixels);
-        holder.imageView.setImageBitmap(bm);
+        holder.imageView.setImageResource( cart.getProduct().getImage());
 
         holder.nameTextView.setText(cart.getProduct().getNameS());
 
@@ -85,10 +84,12 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.MyViewHolder>{
                 if(!str.equals("")) {
                     if(str.equals("0")) {
                         cartList.remove(position);
+                        MainActivity.saveCartList();
                         notifyDataSetChanged();
                     }
                     else {
                         cartList.get(position).setQuantity(Integer.parseInt(str));
+                        MainActivity.saveCartList();
                         DecimalFormat numberFormat = new DecimalFormat("0.00");
                         holder.priceTextView.setText(numberFormat.format(cart.getProduct().getPrice() * cart.getQuantity()) + " €");
                     }
@@ -104,6 +105,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.MyViewHolder>{
             @Override
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int pos, long id) {
                 cartList.get(position).setSize(pos);
+                MainActivity.saveCartList();
             }
 
             @Override

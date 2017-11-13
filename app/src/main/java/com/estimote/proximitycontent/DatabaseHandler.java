@@ -46,6 +46,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     // Creating Tables
     @Override
     public void onCreate(SQLiteDatabase db) {
+
         String CREATE_CATEGORY_TABLE = "CREATE TABLE " + TABLE_CATEGORY + "("
                 + CATEGORY_ID + " INTEGER PRIMARY KEY," + CATEGORY_NAME + " TEXT UNIQUE)";
         db.execSQL(CREATE_CATEGORY_TABLE);
@@ -66,6 +67,12 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
         // Create tables again
         onCreate(db);
+    }
+
+    public void restartDB(SQLiteDatabase db) {
+        // Drop older table if existed
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_PRODUCT);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_CATEGORY);
     }
 
     // Adding new product
@@ -92,7 +99,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         if (cursor != null)
             cursor.moveToFirst();
 
-        Product product = new Product(Integer.parseInt(cursor.getString(0)),cursor.getString(1),cursor.getDouble(2), cursor.getBlob(3),Integer.parseInt(cursor.getString(4)) );
+        Product product = new Product(Integer.parseInt(cursor.getString(0)),cursor.getString(1),cursor.getDouble(2), Integer.parseInt(cursor.getString(3)),Integer.parseInt(cursor.getString(4)) );
         return product;
     }
 
@@ -110,7 +117,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 product.setIdS( Integer.parseInt(cursor.getString(0)));
                 product.setNameS(cursor.getString(1));
                 product.setPrice(cursor.getDouble(2));
-                product.setImage(cursor.getBlob(3));
+                product.setImage(Integer.parseInt(cursor.getString(3)));
                 product.setCategoryID(Integer.parseInt(cursor.getString(4)));
                 productList.add(product);
             } while (cursor.moveToNext());
@@ -136,7 +143,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 product.setIdS( Integer.parseInt(cursor.getString(0)));
                 product.setNameS(cursor.getString(1));
                 product.setPrice(cursor.getDouble(2));
-                product.setImage(cursor.getBlob(3));
+                product.setImage(Integer.parseInt(cursor.getString(3)));
                 product.setCategoryID(Integer.parseInt(cursor.getString(4)));
                 productList.add(product);
             } while (cursor.moveToNext());

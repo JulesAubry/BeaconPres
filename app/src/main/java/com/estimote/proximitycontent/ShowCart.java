@@ -13,9 +13,11 @@ import android.text.InputType;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -81,8 +83,6 @@ public class ShowCart extends AppCompatActivity {
         }
     }
 
-
-
     public void calculateTotal() {
         double total = 0.0;
         for(int i = 0; i < MainActivity.cart.size(); i++) {
@@ -92,5 +92,79 @@ public class ShowCart extends AppCompatActivity {
         TextView eT = (TextView)findViewById(R.id.totalTextView);
         DecimalFormat numberFormat = new DecimalFormat("0.00");
         eT.setText("Total = " + numberFormat.format(total) + " €");
+
+        MainActivity.saveCartList();
+    }
+
+    public void sendEmail(View view) {
+        Intent i = new Intent(Intent.ACTION_SEND);
+        i.setType("message/rfc822");
+        i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"k7auju00@students.oamk.fi"});
+        i.putExtra(Intent.EXTRA_SUBJECT, "Your Order");
+        i.putExtra(Intent.EXTRA_TEXT   , toStringEmail());
+        try {
+            startActivity(Intent.createChooser(i, "Send mail..."));
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(getApplicationContext(), "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public String toStringEmail() {
+        String str = "";
+        double total = 0.0;
+        for(int i = 0; i < MainActivity.cart.size(); i++) {
+            Product pdr = MainActivity.cart.get(i).getProduct();
+            Category ctr = MainActivity.db.getCategory(pdr.getCategoryID());
+
+            str += "Product (" + ctr.getName() + ") = ";
+            str += "reference : " + pdr.getNameS() + ", ";
+            str += "size : " + getSize(MainActivity.cart.get(i).getSize()) + ", ";
+            str += "quantity : " + MainActivity.cart.get(i).getQuantity() + ", ";
+            str += "price : " + pdr.getPrice()*MainActivity.cart.get(i).getQuantity() + "€.";
+
+            total += pdr.getPrice()*MainActivity.cart.get(i).getQuantity();
+
+            str += "\n\n";
+        }
+
+        DecimalFormat numberFormat = new DecimalFormat("0.00");
+        str += "Total = " + numberFormat.format(total) + " €";
+
+        return str;
+    }
+
+    public String getSize(int size) {
+        String str = "";
+
+        switch (size) {
+            case 0 :
+                str = "XXS";
+                break;
+            case 1 :
+                str = "XS";
+                break;
+            case 2 :
+                str = "S";
+                break;
+            case 3 :
+                str = "M";
+                break;
+            case 4 :
+                str = "L";
+                break;
+            case 5 :
+                str = "XL";
+                break;
+            case 6 :
+                str = "XXL";
+                break;
+            case 7 :
+                str = "XXXL";
+                break;
+            default :
+                str = "XXS";
+        }
+
+        return str;
     }
 }

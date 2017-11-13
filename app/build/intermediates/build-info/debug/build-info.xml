@@ -5,78 +5,48 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="FIELD_ADDED"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0"
-    timestamp="1510337065409"
+    timestamp="1510572779911"
     token="8239636221231391960"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="637" />
+        duration="641" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="65" />
+        duration="31" />
     <task
         name="verifier"
-        duration="12" />
+        duration="0" />
 
     <artifact
         location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1510334406895"
+        timestamp="1510568743215"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1510335469686"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
@@ -87,13 +57,22 @@
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1510336173288"
+        timestamp="1510571329570"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -102,23 +81,20 @@
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1510337065409"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1510572779911"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Jules\Documents\EmbeddedProject\Project\BeaconPres\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

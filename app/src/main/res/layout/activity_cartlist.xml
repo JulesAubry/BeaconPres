@@ -31,7 +31,7 @@
     <TextView android:id="@+id/totalTextView"
         android:layout_height="45dp"
         android:layout_width="150dp"
-        android:text="@string/ordernow"
+        android:text="Total here"
         android:textColor="#FFFFFF"
         android:background="@android:color/darker_gray"
         android:gravity="center"
@@ -39,14 +39,15 @@
 
 
     <Button
-        android:id="@+id/pay"
+        android:id="@+id/order"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:background="@android:color/darker_gray"
         android:textColor="#FFFFFF"
-        android:text="@string/ordernow" />
+        android:text="@string/ordernow"
+        android:onClick="sendEmail"/>
 
 
 

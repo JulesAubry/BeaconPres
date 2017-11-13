@@ -1,10 +1,13 @@
 package com.estimote.proximitycontent;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -14,12 +17,15 @@ import android.view.MenuItem;
 import android.widget.Toolbar;
 
 import com.estimote.coresdk.common.requirements.SystemRequirementsChecker;
+import com.estimote.coresdk.repackaged.gson_v2_3_1.com.google.gson.reflect.TypeToken;
 import com.estimote.proximitycontent.estimote.EstimoteCloudBeaconDetails;
 import com.estimote.proximitycontent.estimote.EstimoteCloudBeaconDetailsFactory;
 import com.estimote.proximitycontent.estimote.ProximityContentManager;
+import com.google.gson.Gson;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.lang.reflect.Type;
 import java.util.*;
 
 //
@@ -33,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
    private Map<String, String> beaconsIDNames;
    public static DatabaseHandler db;
    public static List<CartItem> cart;
+   private static Context context;
 
 
     @Override
@@ -42,7 +49,19 @@ public class MainActivity extends AppCompatActivity {
         android.support.v7.widget.Toolbar myToolbar = ( android.support.v7.widget.Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
-        cart = new ArrayList<CartItem>();
+        MainActivity.context = getApplicationContext();
+
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+        Gson gson = new Gson();
+        String json = sharedPrefs.getString("cartList", null);
+        if(json == null) {
+            cart = new ArrayList<CartItem>();
+        }
+        else {
+            Type type = new TypeToken<ArrayList<CartItem>>() {
+            }.getType();
+            cart = gson.fromJson(json, type);
+        }
 
         setUPDB();
 
@@ -112,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
     public void setUPDB() {
         db = new DatabaseHandler(this);
 
+        db.onUpgrade(db.getReadableDatabase(),1,2);
+
         db.addCategory(new Category("Shoes"));
         db.addCategory(new Category("Pants"));
         db.addCategory(new Category("Socks"));
@@ -128,16 +149,17 @@ public class MainActivity extends AppCompatActivity {
         */
 
         Category pdr = db.getCategory("Shoes");
-        db.addProduct(new Product("TIMBERLAND NEW MAN", 78.9, toByteArray(R.drawable.shoes_1), pdr.getId()));
-        db.addProduct(new Product("NIKE AIR MAX", 48.50, toByteArray(R.drawable.shoes_2), pdr.getId()));
+        db.addProduct(new Product("TIMBERLAND NEW MAN", 78.9, R.drawable.shoes_1, pdr.getId()));
+        db.addProduct(new Product("NIKE AIR MAX", 48.50, R.drawable.shoes_2, pdr.getId()));
 
         Category pdr_2 = db.getCategory("Socks");
-        db.addProduct(new Product("YELLOW SOCKS", 10.4, toByteArray(R.drawable.socks_1), pdr_2.getId()));
-        db.addProduct(new Product("RED NIKE SOCKS", 11.6, toByteArray(R.drawable.socks_2), pdr_2.getId()));
+        db.addProduct(new Product("YELLOW SOCKS", 10.4, R.drawable.socks_1, pdr_2.getId()));
+        db.addProduct(new Product("RED NIKE SOCKS", 11.6, R.drawable.socks_2, pdr_2.getId()));
 
         Category pdr_3 = db.getCategory("Pants");
-        db.addProduct(new Product("BLUE JEAN", 120.0, toByteArray(R.drawable.pants_1), pdr_3.getId()));
-        db.addProduct(new Product("RUNNING PANTS", 25.85, toByteArray(R.drawable.pants_2), pdr_3.getId()));
+        db.addProduct(new Product("BLUE JEAN", 120.0, R.drawable.pants_1, pdr_3.getId()));
+        db.addProduct(new Product("RUNNING PANTS", 25.85,R.drawable.pants_2, pdr_3.getId()));
+
 
         /*// Reading all contacts
         Log.d("Reading: ", "Reading all shoes..");
@@ -180,5 +202,20 @@ public class MainActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
 
         }
+    }
+
+    public static Context getAppContext() {
+        return MainActivity.context;
+    }
+
+    public static void saveCartList() {
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getAppContext());
+        SharedPreferences.Editor editor = sharedPrefs.edit();
+        Gson gson = new Gson();
+
+        String json = gson.toJson(cart);
+
+        editor.putString("cartList", json);
+        editor.commit();
     }
 }

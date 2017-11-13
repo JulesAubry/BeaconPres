@@ -3319,11 +3319,11 @@ public final class R {
     public static final int notification_main_column=0x7f09005d;
     public static final int notification_main_column_container=0x7f09005e;
     public static final int numberEditText=0x7f09005f;
-    public static final int packed=0x7f090060;
-    public static final int parallax=0x7f090061;
-    public static final int parent=0x7f090062;
-    public static final int parentPanel=0x7f090063;
-    public static final int pay=0x7f090064;
+    public static final int order=0x7f090060;
+    public static final int packed=0x7f090061;
+    public static final int parallax=0x7f090062;
+    public static final int parent=0x7f090063;
+    public static final int parentPanel=0x7f090064;
     public static final int pin=0x7f090065;
     public static final int priceTextView=0x7f090066;
     public static final int progressBar=0x7f090067;

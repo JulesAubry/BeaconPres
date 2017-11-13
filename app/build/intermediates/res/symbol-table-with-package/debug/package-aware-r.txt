@@ -832,11 +832,11 @@ int id notification_background 0x7f09005c
 int id notification_main_column 0x7f09005d
 int id notification_main_column_container 0x7f09005e
 int id numberEditText 0x7f09005f
-int id packed 0x7f090060
-int id parallax 0x7f090061
-int id parent 0x7f090062
-int id parentPanel 0x7f090063
-int id pay 0x7f090064
+int id order 0x7f090060
+int id packed 0x7f090061
+int id parallax 0x7f090062
+int id parent 0x7f090063
+int id parentPanel 0x7f090064
 int id pin 0x7f090065
 int id priceTextView 0x7f090066
 int id progressBar 0x7f090067

@@ -84,6 +84,7 @@ public class ShowProduct extends AppCompatActivity  implements ProductAdapter.On
     public void onItemClick(int position) {
         Product product = productList.get(position);
         cart.add(new CartItem(product,1,0));
+        MainActivity.saveCartList();
     }
 
     @Override
