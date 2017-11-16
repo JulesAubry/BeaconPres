@@ -28,5 +28,11 @@ dependencies {
     compile 'com.estimote:sdk:1.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:recyclerview-v7:25.4.0'
+
+    implementation 'com.mikepenz:actionitembadge:3.3.2@aar'
+    implementation "com.mikepenz:iconics-core:2.9.5@aar"
+    implementation 'com.mikepenz:fontawesome-typeface:4.7.0.2@aar'
+
+
     testCompile 'junit:junit:4.12'
 }

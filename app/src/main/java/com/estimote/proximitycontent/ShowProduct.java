@@ -19,6 +19,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.estimote.proximitycontent.R;
+import com.mikepenz.actionitembadge.library.ActionItemBadge;
+import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -84,13 +86,21 @@ public class ShowProduct extends AppCompatActivity  implements ProductAdapter.On
     public void onItemClick(int position) {
         Product product = productList.get(position);
         cart.add(new CartItem(product,1,0));
+        invalidateOptionsMenu();
         MainActivity.saveCartList();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.layout_menu, menu);
+        inflater.inflate(R.menu.layout_cart, menu);
+
+        if (cart.size() > 0) {
+            ActionItemBadge.update(this, menu.findItem(R.id.showcart),  FontAwesome.Icon.faw_shopping_cart, ActionItemBadge.BadgeStyles.DARK_GREY, cart.size());
+        } else {
+            ActionItemBadge.hide(menu.findItem(R.id.showcart));
+        }
+
         return true;
     }
 
@@ -99,6 +109,7 @@ public class ShowProduct extends AppCompatActivity  implements ProductAdapter.On
         switch (item.getItemId()) {
 
             case R.id.showcart:
+                ActionItemBadge.update(item, cart.size());
                 Intent intent = new Intent(this, ShowCart.class);
                 startActivity(intent);
                 return true;
@@ -109,5 +120,21 @@ public class ShowProduct extends AppCompatActivity  implements ProductAdapter.On
                 return super.onOptionsItemSelected(item);
 
         }
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        if (cart.size() > 0) {
+            ActionItemBadge.update(this, menu.findItem(R.id.showcart),  FontAwesome.Icon.faw_shopping_cart, ActionItemBadge.BadgeStyles.DARK_GREY, cart.size());
+        } else {
+            ActionItemBadge.hide(menu.findItem(R.id.showcart));
+        }
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        invalidateOptionsMenu();
     }
 }

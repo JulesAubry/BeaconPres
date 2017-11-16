@@ -3,6 +3,8 @@ package com.estimote.proximitycontent;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -33,10 +35,14 @@ import java.util.List;
 public class ShowCart extends AppCompatActivity {
     private RecyclerView recyclerView;
     private CartAdapter mAdapter;
+    private int count;
+
+
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.activity_cartlist);
+        count = MainActivity.cart.size();
 
         android.support.v7.widget.Toolbar myToolbar = ( android.support.v7.widget.Toolbar) findViewById(R.id.my_toolbar_cart);
         setSupportActionBar(myToolbar);
@@ -66,7 +72,7 @@ public class ShowCart extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.layout_return_main_screen, menu);
+        inflater.inflate(R.menu.layout_return, menu);
         return true;
     }
 
@@ -74,7 +80,8 @@ public class ShowCart extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.returnMenu:
-                super.finish();
+                Intent intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
                 return true;
             default:
                 // If we got here, the user's action was not recognized.
@@ -97,15 +104,21 @@ public class ShowCart extends AppCompatActivity {
     }
 
     public void sendEmail(View view) {
-        Intent i = new Intent(Intent.ACTION_SEND);
-        i.setType("message/rfc822");
-        i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"k7auju00@students.oamk.fi"});
-        i.putExtra(Intent.EXTRA_SUBJECT, "Your Order");
-        i.putExtra(Intent.EXTRA_TEXT   , toStringEmail());
-        try {
-            startActivity(Intent.createChooser(i, "Send mail..."));
-        } catch (android.content.ActivityNotFoundException ex) {
-            Toast.makeText(getApplicationContext(), "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+        if(MainActivity.cart.size() > 0 ) {
+            Intent i = new Intent(Intent.ACTION_SEND);
+            i.setType("message/rfc822");
+            i.putExtra(Intent.EXTRA_EMAIL, new String[]{"k7auju00@students.oamk.fi"});
+            i.putExtra(Intent.EXTRA_SUBJECT, "Your Order");
+            i.putExtra(Intent.EXTRA_TEXT, toStringEmail());
+            try {
+                startActivity(Intent.createChooser(i, "Send mail..."));
+                MainActivity.cart.clear();
+                MainActivity.saveCartList();
+                Toast.makeText(getApplicationContext(), "Thanks for your order", Toast.LENGTH_SHORT).show();
+                finish();
+            } catch (android.content.ActivityNotFoundException ex) {
+                Toast.makeText(getApplicationContext(), "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+            }
         }
     }
 

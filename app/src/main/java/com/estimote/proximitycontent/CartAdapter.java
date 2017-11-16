@@ -1,9 +1,11 @@
 package com.estimote.proximitycontent;
 
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.preference.PreferenceManager;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -11,6 +13,7 @@ import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -44,6 +47,38 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.MyViewHolder>{
             priceTextView = (TextView) view.findViewById(R.id.priceTextView);
             sizeSpinner = (Spinner) view.findViewById(R.id.sizeSpinner);
             numberEditText = (EditText) view.findViewById(R.id.numberEditText);
+
+            numberEditText.addTextChangedListener(new TextWatcher() {
+
+                @Override
+                public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+
+                @Override
+                public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+                }
+
+                public void afterTextChanged(Editable s) {
+                    String str = s.toString();
+                    if(!str.equals("")) {
+                        if (str.equals("0")) {
+                            cartList.remove(getAdapterPosition());
+                            numberEditText.post(new Runnable() {
+                                @Override
+                                public void run() {
+                                    notifyDataSetChanged();
+                                }
+                            });
+                            MainActivity.saveCartList();
+                        } else {
+                            cartList.get(getAdapterPosition()).setQuantity(Integer.parseInt(str));
+                            DecimalFormat numberFormat = new DecimalFormat("0.00");
+                            MainActivity.saveCartList();
+                        }
+                    }
+                }
+
+            });
         }
     }
 
@@ -69,37 +104,11 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.MyViewHolder>{
 
         DecimalFormat numberFormat = new DecimalFormat("0.00");
 
-        holder.priceTextView.setText(numberFormat.format(cart.getProduct().getPrice() * cart.getQuantity()) + " €");
+        holder.priceTextView.setText(numberFormat.format(cart.getProduct().getPrice())+ " €");
         holder.numberEditText.setText(Integer.toString(cart.getQuantity()));
+
+
         holder.sizeSpinner.setSelection(cart.getSize());
-
-        holder.numberEditText.addTextChangedListener(new TextWatcher() {
-
-            @Override
-            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
-
-            @Override
-            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                String str = charSequence.toString();
-                if(!str.equals("")) {
-                    if(str.equals("0")) {
-                        cartList.remove(position);
-                        MainActivity.saveCartList();
-                        notifyDataSetChanged();
-                    }
-                    else {
-                        cartList.get(position).setQuantity(Integer.parseInt(str));
-                        MainActivity.saveCartList();
-                        DecimalFormat numberFormat = new DecimalFormat("0.00");
-                        holder.priceTextView.setText(numberFormat.format(cart.getProduct().getPrice() * cart.getQuantity()) + " €");
-                    }
-                }
-
-            }
-
-            public void afterTextChanged(Editable s) {}
-
-        });
 
         holder.sizeSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override

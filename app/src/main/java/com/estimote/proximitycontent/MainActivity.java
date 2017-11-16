@@ -1,9 +1,12 @@
 package com.estimote.proximitycontent;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -14,6 +17,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toolbar;
 
 import com.estimote.coresdk.common.requirements.SystemRequirementsChecker;
@@ -22,6 +27,10 @@ import com.estimote.proximitycontent.estimote.EstimoteCloudBeaconDetails;
 import com.estimote.proximitycontent.estimote.EstimoteCloudBeaconDetailsFactory;
 import com.estimote.proximitycontent.estimote.ProximityContentManager;
 import com.google.gson.Gson;
+import com.mikepenz.actionitembadge.library.ActionItemBadge;
+import com.mikepenz.fontawesome_typeface_library.FontAwesome;
+
+import org.w3c.dom.Text;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -40,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
    public static DatabaseHandler db;
    public static List<CartItem> cart;
    private static Context context;
-
+   private Menu menu;
+   private android.support.v7.widget.Toolbar myToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,6 +115,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
+        invalidateOptionsMenu();
+
         if (!SystemRequirementsChecker.checkWithDefaultDialogs(this)) {
             Log.e(TAG, "Can't scan for beacons, some pre-conditions were not met");
             Log.e(TAG, "Read more about what's required at: http://estimote.github.io/Android-SDK/JavaDocs/com/estimote/sdk/SystemRequirementsChecker.html");
@@ -149,16 +161,24 @@ public class MainActivity extends AppCompatActivity {
         */
 
         Category pdr = db.getCategory("Shoes");
-        db.addProduct(new Product("TIMBERLAND NEW MAN", 78.9, R.drawable.shoes_1, pdr.getId()));
-        db.addProduct(new Product("NIKE AIR MAX", 48.50, R.drawable.shoes_2, pdr.getId()));
+        db.addProduct(new Product("TIMBERLAND NEW MAN", 78.95, R.drawable.shoes_1, pdr.getId()));
+        db.addProduct(new Product("NIKE AIR MAX", 48.55, R.drawable.shoes_2, pdr.getId()));
+        db.addProduct(new Product("CONVERSE ALL STARS", 65.85, R.drawable.shoes_3, pdr.getId()));
+        db.addProduct(new Product("WINTER WOMAN SHOES", 39.05, R.drawable.shoes_4, pdr.getId()));
+        db.addProduct(new Product("MAN SHOES HIGH QUALITY", 125.55, R.drawable.shoes_5, pdr.getId()));
+
 
         Category pdr_2 = db.getCategory("Socks");
-        db.addProduct(new Product("YELLOW SOCKS", 10.4, R.drawable.socks_1, pdr_2.getId()));
-        db.addProduct(new Product("RED NIKE SOCKS", 11.6, R.drawable.socks_2, pdr_2.getId()));
+        db.addProduct(new Product("YELLOW SOCKS", 10.45, R.drawable.socks_1, pdr_2.getId()));
+        db.addProduct(new Product("RED NIKE SOCKS", 11.85, R.drawable.socks_2, pdr_2.getId()));
+        db.addProduct(new Product("WOMAN FANTASY SOCKS", 25.95, R.drawable.socks_3, pdr_2.getId()));
 
         Category pdr_3 = db.getCategory("Pants");
-        db.addProduct(new Product("BLUE JEAN", 120.0, R.drawable.pants_1, pdr_3.getId()));
+        db.addProduct(new Product("BLUE JEAN", 119.99, R.drawable.pants_1, pdr_3.getId()));
         db.addProduct(new Product("RUNNING PANTS", 25.85,R.drawable.pants_2, pdr_3.getId()));
+        db.addProduct(new Product("MAN JOGGING", 85.85, R.drawable.pants_3, pdr_3.getId()));
+        db.addProduct(new Product("WOMAN PANTS HIGH QUALITY", 149.99,R.drawable.pants_4, pdr_3.getId()));
+        db.addProduct(new Product("WOMAN SHORT BLACK",  25.99, R.drawable.pants_5, pdr_3.getId()));
 
 
         /*// Reading all contacts
@@ -183,7 +203,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.layout_menu, menu);
+        inflater.inflate(R.menu.layout_cart, menu);
+
+        if (cart.size() > 0) {
+            ActionItemBadge.update(this, menu.findItem(R.id.showcart),  FontAwesome.Icon.faw_shopping_cart, ActionItemBadge.BadgeStyles.DARK_GREY, cart.size());
+        } else {
+            ActionItemBadge.hide(menu.findItem(R.id.showcart));
+        }
+
+        this.menu = menu;
+
         return true;
     }
 
@@ -192,6 +221,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
 
             case R.id.showcart:
+                ActionItemBadge.update(item, cart.size());
                 Intent intent = new Intent(this, ShowCart.class);
                 startActivity(intent);
                 return true;
